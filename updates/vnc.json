@@ -3,16 +3,16 @@
   "appId": "greenhouse-vnc",
   "platforms": {
     "windows-x64": {
-      "version": "0.1.12",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.12/Setup-Greenhouse-VNC-0.1.12.exe",
-      "sha256": "7f4e74f70b486c7fcabb82a9bf4b4d4279139e40c0d733931ab62af1bdb6acf4",
-      "bytes": 90177866
+      "version": "0.1.13",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.13/Setup-Greenhouse-VNC-0.1.13.exe",
+      "sha256": "60464d0f2c99c22665a61cb2a8d60d31eb820903e0f5f4d54bc219709aad6ba3",
+      "bytes": 90042630
     },
     "windows-arm64": {
-      "version": "0.1.12",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.12/Setup-Greenhouse-VNC-0.1.12.exe",
-      "sha256": "7f4e74f70b486c7fcabb82a9bf4b4d4279139e40c0d733931ab62af1bdb6acf4",
-      "bytes": 90177866
+      "version": "0.1.13",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.13/Setup-Greenhouse-VNC-0.1.13.exe",
+      "sha256": "60464d0f2c99c22665a61cb2a8d60d31eb820903e0f5f4d54bc219709aad6ba3",
+      "bytes": 90042630
     }
   }
 }
