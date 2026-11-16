@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "appId": "greenhouse-backup",
+  "platforms": {
+    "windows-x64": {
+      "version": "1.1.8",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.8/Setup-Greenhouse-Backup-1.1.8.exe",
+      "sha256": "e6b4d47036834dd53cd3edf075b3a2c47bd3741be5ee3ca6e3c9c92b55aaa708",
+      "bytes": 5239211
+    }
+  }
+}
