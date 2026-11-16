@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "appId": "greenhouse-plc-updater",
+  "platforms": {
+    "windows-anycpu": {
+      "version": "2.2.8",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.8/Setup-Greenhouse-PLC-Updater-2.2.8.exe",
+      "sha256": "f8cb63932160b28e968ea2135520e81f72ba7441163abcc8edd5d2563bbe5f28",
+      "bytes": 2534732
+    }
+  }
+}
