@@ -3,16 +3,52 @@
   "appId": "greenhouse-vnc",
   "platforms": {
     "windows-x64": {
-      "version": "0.1.13",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.13/Setup-Greenhouse-VNC-0.1.13.exe",
-      "sha256": "60464d0f2c99c22665a61cb2a8d60d31eb820903e0f5f4d54bc219709aad6ba3",
-      "bytes": 90042630
+      "version": "0.1.14",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.14/Setup-Greenhouse-VNC-0.1.14.exe",
+      "sha256": "0079876ce1e7b06fc8c0fb759f7c4c2f9bdcb74f7788a0e3f4217906bd3a5fe6",
+      "bytes": 90055041,
+      "files": [
+        {
+          "path": "Achterbosch.PlcVnc.exe",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.14/update-212d6a90079c584848540786cfc50089c9c21a7b06be8c537d575b80c0da807a.zip",
+          "sha256": "6fcce13a7e48227fd78987b6007aea9e7538318f95a6b47bace9cc7210de9120",
+          "size": 52098919,
+          "archiveSha256": "212d6a90079c584848540786cfc50089c9c21a7b06be8c537d575b80c0da807a",
+          "archiveSize": 46651903
+        },
+        {
+          "path": "GreenhouseUpdate.ps1",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.14/update-5ea0c8a07355585a368767df857480a5c79fe03dc66479ca70bed4fee5ff148a.zip",
+          "sha256": "a3a989f988199086ea2675822d6c7e4f91f3e7b6f35dbf077a48b4cf10ade603",
+          "size": 20278,
+          "archiveSha256": "5ea0c8a07355585a368767df857480a5c79fe03dc66479ca70bed4fee5ff148a",
+          "archiveSize": 6573
+        }
+      ]
     },
     "windows-arm64": {
-      "version": "0.1.13",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.13/Setup-Greenhouse-VNC-0.1.13.exe",
-      "sha256": "60464d0f2c99c22665a61cb2a8d60d31eb820903e0f5f4d54bc219709aad6ba3",
-      "bytes": 90042630
+      "version": "0.1.14",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.14/Setup-Greenhouse-VNC-0.1.14.exe",
+      "sha256": "0079876ce1e7b06fc8c0fb759f7c4c2f9bdcb74f7788a0e3f4217906bd3a5fe6",
+      "bytes": 90055041,
+      "files": [
+        {
+          "path": "Achterbosch.PlcVnc.exe",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.14/update-886162e9dc10808f9481a3c638077dc1191a0fc7933582d131aaedf2c4563946.zip",
+          "sha256": "a6f7c36535c435c1a095084b454355e063263f869ee923d086574cf7a4bae082",
+          "size": 50842888,
+          "archiveSha256": "886162e9dc10808f9481a3c638077dc1191a0fc7933582d131aaedf2c4563946",
+          "archiveSize": 44730359
+        },
+        {
+          "path": "GreenhouseUpdate.ps1",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.14/update-5ea0c8a07355585a368767df857480a5c79fe03dc66479ca70bed4fee5ff148a.zip",
+          "sha256": "a3a989f988199086ea2675822d6c7e4f91f3e7b6f35dbf077a48b4cf10ade603",
+          "size": 20278,
+          "archiveSha256": "5ea0c8a07355585a368767df857480a5c79fe03dc66479ca70bed4fee5ff148a",
+          "archiveSize": 6573
+        }
+      ]
     }
   }
 }

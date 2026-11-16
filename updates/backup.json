@@ -3,10 +3,44 @@
   "appId": "greenhouse-backup",
   "platforms": {
     "windows-x64": {
-      "version": "1.1.8",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.8/Setup-Greenhouse-Backup-1.1.8.exe",
-      "sha256": "e6b4d47036834dd53cd3edf075b3a2c47bd3741be5ee3ca6e3c9c92b55aaa708",
-      "bytes": 5239211
+      "version": "1.1.9",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.9/Setup-Greenhouse-Backup-1.1.9.exe",
+      "sha256": "c1f50c8d60c2bc6c4ca82388a455f766e390aacc4105cd7bd51bd55931113ea2",
+      "bytes": 5248886,
+      "files": [
+        {
+          "path": "Go-LICENSE.txt",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.9/update-55b2ec36aca180c6810a20c1fc96ce3c9ee42e041a78da427004ab6e8df1b5b5.zip",
+          "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067",
+          "size": 1479,
+          "archiveSha256": "55b2ec36aca180c6810a20c1fc96ce3c9ee42e041a78da427004ab6e8df1b5b5",
+          "archiveSize": 892
+        },
+        {
+          "path": "GreenhouseBackup.exe",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.9/update-ffab5f4e24ca5ef9ea41b48e705a2e1653435fca4c6098108541a07fff8b1c75.zip",
+          "sha256": "a417b223f275760190d4abf9babd95dcef2574b27dc944bd9611c74cd21f264d",
+          "size": 9079808,
+          "archiveSha256": "ffab5f4e24ca5ef9ea41b48e705a2e1653435fca4c6098108541a07fff8b1c75",
+          "archiveSize": 3889512
+        },
+        {
+          "path": "GreenhouseUpdate.ps1",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.9/update-595e6e69fd9164eaaa5bfbb83833b3c5448487950ecdac436fae7579f9bb2192.zip",
+          "sha256": "a3a989f988199086ea2675822d6c7e4f91f3e7b6f35dbf077a48b4cf10ade603",
+          "size": 20278,
+          "archiveSha256": "595e6e69fd9164eaaa5bfbb83833b3c5448487950ecdac436fae7579f9bb2192",
+          "archiveSize": 6544
+        },
+        {
+          "path": "Update-ScheduledTasks.ps1",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.9/update-c6616708eaea5cd6c98874afbafbb90c7d37ce9ee39377f1c38619e5e08119fe.zip",
+          "sha256": "a047bbfb1579917684ebd5e39d37736e9afa43fe900c0c44f15a364d1eba8210",
+          "size": 3320,
+          "archiveSha256": "c6616708eaea5cd6c98874afbafbb90c7d37ce9ee39377f1c38619e5e08119fe",
+          "archiveSize": 1472
+        }
+      ]
     }
   }
 }
