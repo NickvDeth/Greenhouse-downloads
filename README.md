@@ -15,7 +15,7 @@ Greenhouse VNC heeft één installatieprogramma dat automatisch de juiste uitvoe
 
 Gebruik je nog een losse EXE van een van deze tools? Download eenmalig het nieuwe installatieprogramma via de links hierboven. Oudere versies, waaronder PLC Updater 2.2.7, stappen niet automatisch over op het installatieprogramma.
 
-Had je al een geplande back-up met de losse EXE? Open na installatie Greenhouse Backup en kies eenmalig **Planning instellen / bijwerken**. Bewaar de oude EXE en de bijbehorende map totdat het bijwerken van de planning is geslaagd. De installatie laat bestaande geplande taken ongemoeid; tot de planning is bijgewerkt gebruiken die het oude programma. Een nieuwe planning gebruikt het geïnstalleerde programma.
+Had je al een geplande back-up met opgeslagen Windows-wachtwoord en de losse EXE? Open na installatie Greenhouse Backup en kies eenmalig **Planning instellen / bijwerken**. Bewaar de oude EXE en de bijbehorende map totdat het bijwerken van de planning is geslaagd. De installatie laat die taak ongemoeid; tot de planning is bijgewerkt gebruikt die het oude programma. Taken zonder opgeslagen Windows-wachtwoord worden automatisch overgezet. Een nieuwe planning gebruikt het geïnstalleerde programma.
 
 De Windows-tools tonen hun versienummer en controleren bij het starten op een nieuwe versie. Via de updateknop kun je ook handmatig controleren. Een beschikbare update kun je downloaden of uitstellen. Laat lopende PLC-updates en back-ups afronden en sluit het programma voordat je een nieuwe versie installeert.
 
