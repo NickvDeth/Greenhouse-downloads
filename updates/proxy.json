@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "appId": "greenhouse-proxy",
+  "platforms": {
+    "windows-anycpu": {
+      "version": "2.2.4",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.4/Setup-Greenhouse-Proxy-2.2.4.exe",
+      "sha256": "864630f46d7017c9de821db853fb958ca134ef2dc5d0fbc869229b728236ee2c",
+      "bytes": 2371201
+    }
+  }
+}

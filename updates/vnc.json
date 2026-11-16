@@ -3,16 +3,16 @@
   "appId": "greenhouse-vnc",
   "platforms": {
     "windows-x64": {
-      "version": "0.1.11",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.11/Achterbosch_PLC_VNC_x64.exe",
-      "sha256": "f02bd32ecdda4ac33a5d8febfadbccaa5ba99d52fe421635632a854fc9e5eb70",
-      "bytes": 52211455
+      "version": "0.1.12",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.12/Setup-Greenhouse-VNC-0.1.12.exe",
+      "sha256": "7f4e74f70b486c7fcabb82a9bf4b4d4279139e40c0d733931ab62af1bdb6acf4",
+      "bytes": 90177866
     },
     "windows-arm64": {
-      "version": "0.1.11",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.11/Achterbosch_PLC_VNC_ARM64.exe",
-      "sha256": "72b8ae808c76c027b8b5aaa344bfdd44bcfdd9f784c4588e542ad9127f3953ef",
-      "bytes": 50955421
+      "version": "0.1.12",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.12/Setup-Greenhouse-VNC-0.1.12.exe",
+      "sha256": "7f4e74f70b486c7fcabb82a9bf4b4d4279139e40c0d733931ab62af1bdb6acf4",
+      "bytes": 90177866
     }
   }
 }

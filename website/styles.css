@@ -88,6 +88,7 @@ h1 { margin: 0; color: var(--ink); font-size: clamp(32px, 3.8vw, 48px); line-hei
 .note-icon svg { width: 21px; height: 21px; }
 .update-note h2 { margin: 0 0 6px; font-size: 13px; font-weight: 700; line-height: 1.5; }
 .update-note p { margin: 0; max-width: 920px; font-size: 12px; line-height: 1.8; }
+.update-note p + p { margin-top: 8px; }
 .update-note strong { font-weight: 700; }
 .site-footer { border-top: 1px solid var(--line); background: white; }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 73px; padding-block: 20px; font-size: 11px; }
