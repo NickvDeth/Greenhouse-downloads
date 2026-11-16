@@ -3,10 +3,36 @@
   "appId": "greenhouse-plc-updater",
   "platforms": {
     "windows-anycpu": {
-      "version": "2.2.9",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.9/Setup-Greenhouse-PLC-Updater-2.2.9.exe",
-      "sha256": "e9fe4f5a750a15662712a51c8a1e677c2e5df48e09e386ef2b9fc5c9db6cb117",
-      "bytes": 2561855
+      "version": "2.2.10",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.10/Setup-Greenhouse-PLC-Updater-2.2.10.exe",
+      "sha256": "46c784d7b6973b6d1c4aac935e50a1e8bc8cd016b19ca27774228ec6a77ef158",
+      "bytes": 2568143,
+      "files": [
+        {
+          "path": "GreenhouseUpdate.ps1",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.10/update-ded46ef95a890ad72b8f6d9a51102143a1e2bf05506773afe19969cbca006a98.zip",
+          "sha256": "e438eae3b126e79b69e68a3d5fd6e1f23023996990d6472ef7692db41a99ca65",
+          "size": 20583,
+          "archiveSha256": "ded46ef95a890ad72b8f6d9a51102143a1e2bf05506773afe19969cbca006a98",
+          "archiveSize": 6599
+        },
+        {
+          "path": "LEESMIJ.txt",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.10/update-e7aa1cc68488e71f52e685a74b372c932910686e9e7a22127b2cf59f3c8324b7.zip",
+          "sha256": "e9a95ffcff98fc0a2eb4ee6f07d03505044fe0038ba81a334c448bf41eeff0aa",
+          "size": 63982,
+          "archiveSha256": "e7aa1cc68488e71f52e685a74b372c932910686e9e7a22127b2cf59f3c8324b7",
+          "archiveSize": 20686
+        },
+        {
+          "path": "PLC-Updater.exe",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.10/update-8d16369f4e488aaec291f7d958ce8d5fd8fd5383114315640c91109cc8943d9f.zip",
+          "sha256": "8f1acefcf0282f0de4fbda2d33f8ea618da4a4aa5eb3af32fc50909079a607a7",
+          "size": 901632,
+          "archiveSha256": "8d16369f4e488aaec291f7d958ce8d5fd8fd5383114315640c91109cc8943d9f",
+          "archiveSize": 458000
+        }
+      ]
     }
   }
 }

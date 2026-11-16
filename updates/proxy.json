@@ -3,10 +3,36 @@
   "appId": "greenhouse-proxy",
   "platforms": {
     "windows-anycpu": {
-      "version": "2.2.5",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.5/Setup-Greenhouse-Proxy-2.2.5.exe",
-      "sha256": "77c37849eabad513cfb88a4c95dd2ade0104c1affa2a8fa0e5bb646d907308ce",
-      "bytes": 2375762
+      "version": "2.2.6",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.6/Setup-Greenhouse-Proxy-2.2.6.exe",
+      "sha256": "9e31c7c58e3e24a034e7b47a96fdbcab08301e063aeffe63eaf7080584e8e54b",
+      "bytes": 2382114,
+      "files": [
+        {
+          "path": "GreenhouseProxy.exe",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.6/update-e181cdda029f4b3856da77e4a69e85c2bafb9166171e3c29640f33d770a7ec0e.zip",
+          "sha256": "800f15d61c4f11d7a6cee0090ed3e4862223ad7b963a56f353e5a6ffa53ac570",
+          "size": 400384,
+          "archiveSha256": "e181cdda029f4b3856da77e4a69e85c2bafb9166171e3c29640f33d770a7ec0e",
+          "archiveSize": 279846
+        },
+        {
+          "path": "GreenhouseUpdate.ps1",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.6/update-86a24ccff751265c23d2f08e802959ef2b70b33e610e374946ba70373649f7d7.zip",
+          "sha256": "e438eae3b126e79b69e68a3d5fd6e1f23023996990d6472ef7692db41a99ca65",
+          "size": 20583,
+          "archiveSha256": "86a24ccff751265c23d2f08e802959ef2b70b33e610e374946ba70373649f7d7",
+          "archiveSize": 6572
+        },
+        {
+          "path": "Update-ScheduledTask.ps1",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.6/update-b466ab1077973554353928bcbb00937a74019391a390788aaa0e497c905becb0.zip",
+          "sha256": "f0c9f9816d63391457048451ac4a71f3cdf129ebace4be2a460b5fb9b009d903",
+          "size": 1140,
+          "archiveSha256": "b466ab1077973554353928bcbb00937a74019391a390788aaa0e497c905becb0",
+          "archiveSize": 645
+        }
+      ]
     }
   }
 }
