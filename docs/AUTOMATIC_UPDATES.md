@@ -2,7 +2,11 @@
 
 Vanaf Proxy 2.2.8, Backup 1.1.11, PLC Updater 2.2.12 en VNC Windows 0.1.16 gebruikt de gedeelde updater manifestprotocol 2. Installeer deze herstelversies eenmalig, ook als een oudere updater aanwezig is. Protocol 1 is gestopt vanwege verlies van lees-/uitvoerrechten bij bestandsvervanging. Zie [herstelinstructies](UPDATE_RECOVERY.md).
 
-Tijdens gebruik wordt alleen de ondertekende versie-informatie opgehaald. Bij afsluiten volgt een Ja/Nee-vraag, standaard Nee. Alleen na Ja start het zichtbare updatevenster en worden gewijzigde programmabestanden gedownload, gecontroleerd en geinstalleerd. Windows kan om beheerderstoestemming vragen. Annuleren kan tijdens downloaden/wachten; de vervanging en eventuele rollback worden niet onderbroken. Het venster blijft op de uitslag staan tot Sluiten.
+Tijdens gebruik wordt alleen de ondertekende versie-informatie opgehaald. Bij afsluiten volgt een Ja/Nee-vraag, standaard Nee. Alleen na Ja start het zichtbare updatevenster met **Download bezig → Update bezig → Update voltooid** en worden gewijzigde programmabestanden gedownload, gecontroleerd en geinstalleerd. Windows kan om beheerderstoestemming vragen. Annuleren kan tijdens downloaden/wachten; de vervanging en eventuele rollback worden niet onderbroken. Het venster blijft op de uitslag staan tot **OK**.
+
+De nieuwe weergave zit in de updater van Proxy 2.2.10, Backup 1.1.12, PLC Updater 2.2.13 en VNC Windows 0.1.17. De helper maakt zijn eigen venster nu expliciet zichtbaar, zodat het verborgen starten van PowerShell niet ook het voortgangsvenster verbergt. Tijdens de eerste automatische update naar deze versies draait nog de oude geïnstalleerde helper; die kan de voortgang dus nog verborgen houden. Installeer voor direct herstel eenmalig de nieuwste installer over de bestaande installatie, zonder eerst te verwijderen. Instellingen blijven behouden; volgende updates gebruiken de nieuwe stappenweergave.
+
+Heb je al op Ja geklikt en verscheen er geen voortgangsvenster? Rond lopende PLC-acties en back-ups af. Herstart Windows op een geschikt onderhoudsmoment en installeer daarna de nieuwste versie. Zo worden oude, verborgen updaterprocessen ook beëindigd.
 
 De updater vergelijkt SHA-256 per bestand en slaat ongewijzigde bestanden over. Het zijn bestandsupdates, geen binaire patches: een gewijzigde EXE wordt volledig gedownload. VNC downloadt uitsluitend de eigen Windows-architectuur. Instellingen, PLC-gegevens, back-ups, planningen en snelkoppelingen worden niet opnieuw aangemaakt of vervangen.
 
