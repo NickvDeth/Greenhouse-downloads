@@ -1,6 +1,6 @@
 # Beveiliging van de Windows-apps
 
-De beveiligingsuitgave bevat Proxy 2.2.7, Backup 1.1.10, PLC Updater 2.2.11 en VNC Windows 0.1.15. De wijzigingen betreffen deze vier Windows-apps; Android is niet opnieuw uitgebracht.
+De huidige hersteluitgave bevat Proxy 2.2.8, Backup 1.1.11, PLC Updater 2.2.12 en VNC Windows 0.1.16. Deze moet eenmalig met de installer worden geinstalleerd om een fout in bestandsrechten van de eerdere updater te herstellen. Zie [de herstelstappen](UPDATE_RECOVERY.md). De beveiligingsmaatregelen hieronder blijven behouden; Android is niet opnieuw uitgebracht.
 
 ## Wat is verbeterd?
 
@@ -22,7 +22,7 @@ Bevestig in PLC Updater alleen een Machine Manager-bestand waarvan je de herkoms
 
 ## Grenzen
 
-Er is nog geen officieel Windows-uitgeverscertificaat beschikbaar. De aparte updatehandtekening verandert dat niet; Windows kan de installer nog als onbekende uitgever tonen. De eerste overgang vanuit een oudere updater gebruikt nog het bestaande distributiekanaal.
+Er is nog geen officieel Windows-uitgeverscertificaat beschikbaar. De aparte updatehandtekening verandert dat niet; Windows kan de installer nog als onbekende uitgever tonen. De overgang vanaf de eerdere updater vereist een eenmalige herstelinstaller; oude helpers worden via manifestprotocol 2 geblokkeerd.
 
 VNC versleutelt de verbinding niet en verifieert geen servercertificaat. Een privéadres op zichzelf bewijst niet dat het netwerk betrouwbaar is. Gebruik een vertrouwd netwerk/VPN; stel PLC-, FTP- of VNC-poorten niet rechtstreeks bloot aan internet. De beveiliging van externe PLC-tools en servers is hiermee niet bewezen.
 
