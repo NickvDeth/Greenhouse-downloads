@@ -1,7 +1,25 @@
-# Herstel van programmatoegang na bijwerken
+# Herstel na 'Kan geen toegang krijgen tot het opgegeven apparaat, pad of bestand'
 
-Op 17 november 2026 is een fout gereproduceerd in de gedeelde Windows-updater: het vervangen van een bestaand bestand vanuit de beveiligde tijdelijke map kan de gewone gebruikersrechten voor lezen/uitvoeren verliezen. Het bestand blijft aanwezig, maar Windows meldt dat het apparaat, pad of bestand niet toegankelijk is.
+De herstelversies zijn Proxy **2.2.8**, Backup **1.1.11**, PLC Updater **2.2.12** en VNC Windows **0.1.16**.
 
-De oude automatische updater is daarom gestopt via manifestprotocol 2. Oude apps en helpers begrijpen uitsluitend protocol 1 en weigeren deze feeds voordat zij programmabestanden vervangen. Handtekeningen en downloadbestanden blijven controleerbaar; oude installaties ontvangen tijdelijk geen automatische updates.
+## Op de getroffen Windows-pc
 
-Een herstelversie wordt voorbereid met herstel van bestandsrechten, toestemming bij afsluiten en een zichtbaar voortgangsvenster. Daarvoor is eenmalig een nieuwe installer nodig. De oude updater kan zijn eigen vervangingsfout niet betrouwbaar oplossen. Verwijder de bestaande installatie of instellingen niet. Nieuwe instructies verschijnen op de downloadpagina zodra de herstelinstallers zijn getest en gepubliceerd.
+1. Laat eventuele PLC-updates en back-ups afronden. Sluit de betreffende app als deze nog draait.
+2. Download de nieuwe installer via de [downloadpagina](https://nickvdeth.github.io/Greenhouse-downloads/website/).
+3. Voer de installer uit en gebruik de bestaande standaardmap onder `C:\Program Files\Achterbosch`. Bevestig de Windows-beheerderstoestemming indien gevraagd.
+4. Verwijder de oude installatie of instellingen niet vooraf. De installer vervangt de programmabestanden en herstelt lees- en uitvoerrechten; instellingen, bronmappen en bestaande planningen blijven behouden.
+5. Open de app opnieuw via de bestaande snelkoppeling. Blijft een fout bestaan, noteer de volledige melding en controleer of de snelkoppeling naar de standaardinstallatiemap verwijst.
+
+De installer geeft gewone gebruikers geen schrijfrechten op programmabestanden. Windows kan nog een onbekende uitgever tonen omdat een officieel uitgeverscertificaat ontbreekt.
+
+## Wat is opgelost?
+
+De oude updater verving bestanden vanuit een afgeschermde tijdelijke map. Daarbij konden de lees-/uitvoerrechten voor gewone gebruikers verloren gaan. Het bestand bleef aanwezig, maar Windows weigerde het te starten. De fout is in een tijdelijke testomgeving gereproduceerd en hersteld. Nieuwe regressietests controleren rechten bij vervanging, rollback en herinstallatie, en het daadwerkelijk starten als standaardgebruiker zonder beheerdersrechten.
+
+De oude updateprocedure is gestopt met manifestprotocol 2. Een eenmalige herstelinstallatie is noodzakelijk: de oude updater kan zijn eigen vervangingsfout niet betrouwbaar oplossen. Ook nog werkende oude installaties moeten deze overstap maken. Digitale handtekeningen, hashcontroles en de bescherming van gebruikersgegevens blijven behouden.
+
+## Daarna bijwerken
+
+Bij het starten controleert de app alleen of een nieuwe versie beschikbaar is. Na afsluiten verschijnt **Wil je nu bijwerken?**. **Nee** stelt de update uit zonder programmabestanden te downloaden of te wijzigen. **Ja** start het zichtbare updatevenster, eventueel na Windows-beheerderstoestemming. Dat venster toont controleren, downloaden en installeren, en houdt de uitslag zichtbaar totdat je op **Sluiten** klikt.
+
+Tijdens downloaden of wachten kun je annuleren. Tijdens het vervangen van bestanden wordt annuleren tijdelijk geblokkeerd zodat herstel veilig kan verlopen. Bij een herstelfout toont het venster waar de herstelbestanden bewaard zijn; lange meldingen kun je scrollen en kopieren. Er worden geen actieve apps of achtergrondtaken geforceerd afgesloten.
