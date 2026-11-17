@@ -1,6 +1,6 @@
 # Beveiliging van de Windows-apps
 
-De huidige Windows-uitgave bevat Proxy 2.2.9, Backup 1.1.11, PLC Updater 2.2.12 en VNC Windows 0.1.16. Versies van vóór Proxy 2.2.8 of de genoemde versies van de andere apps hebben eenmalig de installer nodig om een fout in bestandsrechten van de eerdere updater te herstellen. Zie [de herstelstappen](UPDATE_RECOVERY.md). De beveiligingsmaatregelen hieronder blijven behouden; Android is niet opnieuw uitgebracht.
+De huidige Windows-uitgave bevat Proxy 2.2.10, Backup 1.1.12, PLC Updater 2.2.13 en VNC Windows 0.1.17. Versies van vóór Proxy 2.2.8, Backup 1.1.11, PLC Updater 2.2.12 of VNC Windows 0.1.16 hebben eenmalig de installer nodig om een fout in bestandsrechten van de eerdere updater te herstellen. Zie [de herstelstappen](UPDATE_RECOVERY.md). De beveiligingsmaatregelen hieronder blijven behouden; Android is niet opnieuw uitgebracht.
 
 Proxy 2.2.9 kan automatische Windows-updates na bevestiging uitschakelen. Dat stopt ook automatische Windows-beveiligingsupdates; handmatig bijwerken blijft mogelijk. Het menu toont deze consequentie en biedt herstel van de eerdere instellingen. De app schakelt geen Windows-services, Defender of updatetaken uit en overschrijft geen centraal of conflicterend updatebeleid. Zie [Windows Update instellen](WINDOWS_UPDATE.md).
 
