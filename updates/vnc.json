@@ -1,54 +1,60 @@
 {
-  "schemaVersion": 1,
-  "appId": "greenhouse-vnc",
-  "platforms": {
-    "windows-x64": {
-      "version": "0.1.14",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.14/Setup-Greenhouse-VNC-0.1.14.exe",
-      "sha256": "0079876ce1e7b06fc8c0fb759f7c4c2f9bdcb74f7788a0e3f4217906bd3a5fe6",
-      "bytes": 90055041,
-      "files": [
-        {
-          "path": "Achterbosch.PlcVnc.exe",
-          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.14/update-212d6a90079c584848540786cfc50089c9c21a7b06be8c537d575b80c0da807a.zip",
-          "sha256": "6fcce13a7e48227fd78987b6007aea9e7538318f95a6b47bace9cc7210de9120",
-          "size": 52098919,
-          "archiveSha256": "212d6a90079c584848540786cfc50089c9c21a7b06be8c537d575b80c0da807a",
-          "archiveSize": 46651903
-        },
-        {
-          "path": "GreenhouseUpdate.ps1",
-          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.14/update-5ea0c8a07355585a368767df857480a5c79fe03dc66479ca70bed4fee5ff148a.zip",
-          "sha256": "a3a989f988199086ea2675822d6c7e4f91f3e7b6f35dbf077a48b4cf10ade603",
-          "size": 20278,
-          "archiveSha256": "5ea0c8a07355585a368767df857480a5c79fe03dc66479ca70bed4fee5ff148a",
-          "archiveSize": 6573
-        }
-      ]
-    },
-    "windows-arm64": {
-      "version": "0.1.14",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.14/Setup-Greenhouse-VNC-0.1.14.exe",
-      "sha256": "0079876ce1e7b06fc8c0fb759f7c4c2f9bdcb74f7788a0e3f4217906bd3a5fe6",
-      "bytes": 90055041,
-      "files": [
-        {
-          "path": "Achterbosch.PlcVnc.exe",
-          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.14/update-886162e9dc10808f9481a3c638077dc1191a0fc7933582d131aaedf2c4563946.zip",
-          "sha256": "a6f7c36535c435c1a095084b454355e063263f869ee923d086574cf7a4bae082",
-          "size": 50842888,
-          "archiveSha256": "886162e9dc10808f9481a3c638077dc1191a0fc7933582d131aaedf2c4563946",
-          "archiveSize": 44730359
-        },
-        {
-          "path": "GreenhouseUpdate.ps1",
-          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.14/update-5ea0c8a07355585a368767df857480a5c79fe03dc66479ca70bed4fee5ff148a.zip",
-          "sha256": "a3a989f988199086ea2675822d6c7e4f91f3e7b6f35dbf077a48b4cf10ade603",
-          "size": 20278,
-          "archiveSha256": "5ea0c8a07355585a368767df857480a5c79fe03dc66479ca70bed4fee5ff148a",
-          "archiveSize": 6573
-        }
-      ]
-    }
-  }
+    "schemaVersion":  1,
+    "appId":  "greenhouse-vnc",
+    "platforms":  {
+                      "windows-x64":  {
+                                          "version":  "0.1.15",
+                                          "downloadUrl":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.15/Setup-Greenhouse-VNC-0.1.15.exe",
+                                          "sha256":  "0d07ea143289774dc0679f14d5f61b5bd219285868c16ea4ebbc6b5056949459",
+                                          "bytes":  90069139,
+                                          "files":  [
+                                                        {
+                                                            "path":  "Achterbosch.PlcVnc.exe",
+                                                            "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.15/update-8be598eb4e66adb70f85fc8e506cabce92148932a3b15d3d15cc4e5982dcddc9.zip",
+                                                            "sha256":  "e870348f86de5b87a6bcaadcc1f3e435d2045c644c96f5edf0c5d919b61db806",
+                                                            "size":  52103729,
+                                                            "archiveSha256":  "8be598eb4e66adb70f85fc8e506cabce92148932a3b15d3d15cc4e5982dcddc9",
+                                                            "archiveSize":  46657027
+                                                        },
+                                                        {
+                                                            "path":  "GreenhouseUpdate.ps1",
+                                                            "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.15/update-c398aa9e4517b43a06c8652d273b80fbe792c578b6f7310d5be52124e9390283.zip",
+                                                            "sha256":  "d68a37a904e6887b4ea96267dd548a1f08fe6a57a5fee57b1bfdaf4e9ed76ecf",
+                                                            "size":  22780,
+                                                            "archiveSha256":  "c398aa9e4517b43a06c8652d273b80fbe792c578b6f7310d5be52124e9390283",
+                                                            "archiveSize":  7843
+                                                        }
+                                                    ]
+                                      },
+                      "windows-arm64":  {
+                                            "version":  "0.1.15",
+                                            "downloadUrl":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.15/Setup-Greenhouse-VNC-0.1.15.exe",
+                                            "sha256":  "0d07ea143289774dc0679f14d5f61b5bd219285868c16ea4ebbc6b5056949459",
+                                            "bytes":  90069139,
+                                            "files":  [
+                                                          {
+                                                              "path":  "Achterbosch.PlcVnc.exe",
+                                                              "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.15/update-27019b3fdef2d11d84e4979ad46f61ddd46a621df2e89a6e7ad3d322de5697b1.zip",
+                                                              "sha256":  "9f67ccb98b6626cc3934be08901b01adbe95fab1610fb9aba07bbfbcee64edd6",
+                                                              "size":  50847693,
+                                                              "archiveSha256":  "27019b3fdef2d11d84e4979ad46f61ddd46a621df2e89a6e7ad3d322de5697b1",
+                                                              "archiveSize":  44734956
+                                                          },
+                                                          {
+                                                              "path":  "GreenhouseUpdate.ps1",
+                                                              "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.15/update-c398aa9e4517b43a06c8652d273b80fbe792c578b6f7310d5be52124e9390283.zip",
+                                                              "sha256":  "d68a37a904e6887b4ea96267dd548a1f08fe6a57a5fee57b1bfdaf4e9ed76ecf",
+                                                              "size":  22780,
+                                                              "archiveSha256":  "c398aa9e4517b43a06c8652d273b80fbe792c578b6f7310d5be52124e9390283",
+                                                              "archiveSize":  7843
+                                                          }
+                                                      ]
+                                        }
+                  },
+    "signedManifest":  {
+                           "algorithm":  "RS256",
+                           "keyId":  "greenhouse-release-2026-11",
+                           "payload":  "eyJzY2hlbWFWZXJzaW9uIjoxLCJhcHBJZCI6ImdyZWVuaG91c2Utdm5jIiwicGxhdGZvcm1zIjp7IndpbmRvd3MteDY0Ijp7InZlcnNpb24iOiIwLjEuMTUiLCJkb3dubG9hZFVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvdm5jLXdpbmRvd3MtdjAuMS4xNS9TZXR1cC1HcmVlbmhvdXNlLVZOQy0wLjEuMTUuZXhlIiwic2hhMjU2IjoiMGQwN2VhMTQzMjg5Nzc0ZGMwNjc5ZjE0ZDVmNjFiNWJkMjE5Mjg1ODY4YzE2ZWE0ZWJiYzZiNTA1Njk0OTQ1OSIsImJ5dGVzIjo5MDA2OTEzOSwiZmlsZXMiOlt7InBhdGgiOiJBY2h0ZXJib3NjaC5QbGNWbmMuZXhlIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC92bmMtd2luZG93cy12MC4xLjE1L3VwZGF0ZS04YmU1OThlYjRlNjZhZGI3MGY4NWZjOGU1MDZjYWJjZTkyMTQ4OTMyYTNiMTVkM2QxNWNjNGU1OTgyZGNkZGM5LnppcCIsInNoYTI1NiI6ImU4NzAzNDhmODZkZTViODdhNmJjYWFkY2MxZjNlNDM1ZDIwNDVjNjQ0Yzk2ZjVlZGYwYzVkOTE5YjYxZGI4MDYiLCJzaXplIjo1MjEwMzcyOSwiYXJjaGl2ZVNoYTI1NiI6IjhiZTU5OGViNGU2NmFkYjcwZjg1ZmM4ZTUwNmNhYmNlOTIxNDg5MzJhM2IxNWQzZDE1Y2M0ZTU5ODJkY2RkYzkiLCJhcmNoaXZlU2l6ZSI6NDY2NTcwMjd9LHsicGF0aCI6IkdyZWVuaG91c2VVcGRhdGUucHMxIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC92bmMtd2luZG93cy12MC4xLjE1L3VwZGF0ZS1jMzk4YWE5ZTQ1MTdiNDNhMDZjODY1MmQyNzNiODBmYmU3OTJjNTc4YjZmNzMxMGQ1YmU1MjEyNGU5MzkwMjgzLnppcCIsInNoYTI1NiI6ImQ2OGEzN2E5MDRlNjg4N2I0ZWE5NjI2N2RkNTQ4YTFmMDhmZTZhNTdhNWZlZTU3YjFiZmRhZjRlOWVkNzZlY2YiLCJzaXplIjoyMjc4MCwiYXJjaGl2ZVNoYTI1NiI6ImMzOThhYTllNDUxN2I0M2EwNmM4NjUyZDI3M2I4MGZiZTc5MmM1NzhiNmY3MzEwZDViZTUyMTI0ZTkzOTAyODMiLCJhcmNoaXZlU2l6ZSI6Nzg0M31dfSwid2luZG93cy1hcm02NCI6eyJ2ZXJzaW9uIjoiMC4xLjE1IiwiZG93bmxvYWRVcmwiOiJodHRwczovL2dpdGh1Yi5jb20vTmlja3ZEZXRoL0dyZWVuaG91c2UtZG93bmxvYWRzL3JlbGVhc2VzL2Rvd25sb2FkL3ZuYy13aW5kb3dzLXYwLjEuMTUvU2V0dXAtR3JlZW5ob3VzZS1WTkMtMC4xLjE1LmV4ZSIsInNoYTI1NiI6IjBkMDdlYTE0MzI4OTc3NGRjMDY3OWYxNGQ1ZjYxYjViZDIxOTI4NTg2OGMxNmVhNGViYmM2YjUwNTY5NDk0NTkiLCJieXRlcyI6OTAwNjkxMzksImZpbGVzIjpbeyJwYXRoIjoiQWNodGVyYm9zY2guUGxjVm5jLmV4ZSIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvdm5jLXdpbmRvd3MtdjAuMS4xNS91cGRhdGUtMjcwMTliM2ZkZWYyZDExZDg0ZTQ5NzlhZDQ2ZjYxZGRkNDZhNjIxZGYyZTg5YTZlN2FkM2QzMjJkZTU2OTdiMS56aXAiLCJzaGEyNTYiOiI5ZjY3Y2NiOThiNjYyNmNjMzkzNGJlMDg5MDFiMDFhZGJlOTVmYWIxNjEwZmI5YWJhMDdiYmZiY2VlNjRlZGQ2Iiwic2l6ZSI6NTA4NDc2OTMsImFyY2hpdmVTaGEyNTYiOiIyNzAxOWIzZmRlZjJkMTFkODRlNDk3OWFkNDZmNjFkZGQ0NmE2MjFkZjJlODlhNmU3YWQzZDMyMmRlNTY5N2IxIiwiYXJjaGl2ZVNpemUiOjQ0NzM0OTU2fSx7InBhdGgiOiJHcmVlbmhvdXNlVXBkYXRlLnBzMSIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvdm5jLXdpbmRvd3MtdjAuMS4xNS91cGRhdGUtYzM5OGFhOWU0NTE3YjQzYTA2Yzg2NTJkMjczYjgwZmJlNzkyYzU3OGI2ZjczMTBkNWJlNTIxMjRlOTM5MDI4My56aXAiLCJzaGEyNTYiOiJkNjhhMzdhOTA0ZTY4ODdiNGVhOTYyNjdkZDU0OGExZjA4ZmU2YTU3YTVmZWU1N2IxYmZkYWY0ZTllZDc2ZWNmIiwic2l6ZSI6MjI3ODAsImFyY2hpdmVTaGEyNTYiOiJjMzk4YWE5ZTQ1MTdiNDNhMDZjODY1MmQyNzNiODBmYmU3OTJjNTc4YjZmNzMxMGQ1YmU1MjEyNGU5MzkwMjgzIiwiYXJjaGl2ZVNpemUiOjc4NDN9XX19LCJzaWduaW5nIjp7InB1cnBvc2UiOiJncmVlbmhvdXNlLXdpbmRvd3MtdXBkYXRlIiwia2V5SWQiOiJncmVlbmhvdXNlLXJlbGVhc2UtMjAyNi0xMSIsImlzc3VlZFV0YyI6IjIwMjYtMTEtMTdUMDk6MzU6MjcuNTcyMzU3MFoifX0=",
+                           "signature":  "lEnw2604Hw1Dxzz22W5ZB+q5PZEogTwol1ffsQXIRSq7ommlKa7LwsPz5SQNzF6Sia9JoQ0t/nVPGvfOdmrl28p0IuP0efitHE6JAf+7xElGRu6ZyhM+2bgtda176MnzrqLXoesOlNpAcqZMTApKG7dH2TUKUynxL3L0g4QYy6BqWL7IAXqA1AfsSVLsPsqtY77vhCNVfxPZyi5EFFwBC9Aajn9MpAWli2uGYMMCEx3BBvpBTP0FAI98Aa5NIqQqQZLugZbBLPp4JwuE67doa14mbygW1mG8a/P/82ke05EESu5/Vy2HeusdxtnHP5Gr376Ffqzfm1QkOsODpt2XlTHGVI14CUTZTwTSZZ1BAjK61YroKXzlXTMHeD3N3GjMLsXwxW8yhn3eaFUvMoTVb3IyfBQ3vuGvnwYVnhUtunsp6rD4Iazjdl45eTUsUGCgUp1GhmKbGcjrKhjwfsf6fdRSvnMr1Nzdohm7Mweg/Py/PpNiQoe2/zMU9yKfJ9YFlzTaMSTn0Pv0avhpwH+olSf1+UMbA6SahU+GebPaJ/ziSKxHlLC9J9rzGANpmNw3idC9ltpuQYGyrJZyMepqoFkmRjAfArzWvKI6BA3GOhbut9ZbXBo2a1Gge0ucKC4El8+fvzQumL9ypH7hQCWMCpmhvsoSVDQbZvl6/85iNQs="
+                       }
 }
