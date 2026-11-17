@@ -13,7 +13,8 @@ $products = @{
     'greenhouse-plc-updater' = @{Tag='plc-updater-v';Name='Greenhouse-PLC-Updater';Platforms=@('windows-anycpu')}
     'greenhouse-vnc' = @{Tag='vnc-windows-v';Name='Greenhouse-VNC';Platforms=@('windows-x64','windows-arm64')}
 }
-if ($feed.schemaVersion -ne 1 -or !$products.ContainsKey($feed.appId)) { throw 'Unknown feed.' }
+if ($feed.schemaVersion -notin @(1,2) -or !$products.ContainsKey($feed.appId)) { throw 'Unknown feed.' }
+$feed.schemaVersion = 2
 $product = $products[$feed.appId]
 $seen = @{}
 $version = $null
