@@ -1,0 +1,16 @@
+name: Verify signed update feeds
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  signatures:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Verify all published signatures and legacy metadata
+        shell: powershell
+        run: ./tools/Test-SignedFeeds.ps1

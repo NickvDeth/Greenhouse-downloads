@@ -55,5 +55,13 @@ foreach ($path in $MetadataPaths) {
     $feed.platforms.$platform = [ordered]@{version=$version; downloadUrl=($releaseUrl+$expectedInstaller); sha256=$setupHash; bytes=$installer.Length; files=@($metadata.files)}
 }
 if ($seen.Count -ne $product.Platforms.Count) { throw 'Missing architecture metadata.' }
-[IO.File]::WriteAllText((Resolve-Path -LiteralPath $FeedPath).Path,($feed | ConvertTo-Json -Depth 10) + [Environment]::NewLine,[Text.UTF8Encoding]::new($false))
+$destination = (Resolve-Path -LiteralPath $FeedPath).Path
+$temporary = Join-Path ([IO.Path]::GetDirectoryName($destination)) ('.signed-feed-' + [guid]::NewGuid().ToString('N') + '.json')
+try {
+    [IO.File]::WriteAllText($temporary,($feed | ConvertTo-Json -Depth 15) + [Environment]::NewLine,[Text.UTF8Encoding]::new($false))
+    & (Join-Path $PSScriptRoot 'Sign-UpdateFeed.ps1') -FeedPath $temporary
+    [IO.File]::Replace($temporary,$destination,[NullString]::Value)
+} finally {
+    if (Test-Path -LiteralPath $temporary) { Remove-Item -LiteralPath $temporary -Force }
+}
 Write-Host ('Prepared ' + $feed.appId + ' ' + $version + '. Publish the installer and every referenced ZIP before merging this feed.')
