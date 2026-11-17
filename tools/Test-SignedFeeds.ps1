@@ -12,7 +12,7 @@ try {
         $payload=[Convert]::FromBase64String($signed.payload)
         if (!$rsa.VerifyData($payload,'SHA256',[Convert]::FromBase64String($signed.signature))) { throw ('Bad signature: '+$name) }
         $body=[Text.UTF8Encoding]::new($false,$true).GetString($payload) | ConvertFrom-Json
-        if ($body.schemaVersion -ne 1 -or $body.appId -cne ('greenhouse-'+$name) -or $body.signing.purpose -cne 'greenhouse-windows-update' -or $body.signing.keyId -cne $public.keyId) { throw ('Bad signature context: '+$name) }
+        if ($body.schemaVersion -ne 2 -or $body.appId -cne ('greenhouse-'+$name) -or $body.signing.purpose -cne 'greenhouse-windows-update' -or $body.signing.keyId -cne $public.keyId) { throw ('Bad signature context: '+$name) }
         if ($feed.schemaVersion -ne $body.schemaVersion -or $feed.appId -cne $body.appId -or ($feed.platforms | ConvertTo-Json -Depth 15 -Compress) -cne ($body.platforms | ConvertTo-Json -Depth 15 -Compress)) { throw ('Legacy metadata differs from signed metadata: '+$name) }
         foreach ($platform in $body.platforms.PSObject.Properties) {
             if (!$platform.Name.StartsWith('windows-')) { continue }

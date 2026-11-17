@@ -7,9 +7,9 @@ $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Security
 $public = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'release-public-key.json') -Raw | ConvertFrom-Json
 $feed = Get-Content -LiteralPath $FeedPath -Raw | ConvertFrom-Json
-if ($feed.schemaVersion -ne 1 -or $feed.appId -notin @('greenhouse-backup','greenhouse-proxy','greenhouse-plc-updater','greenhouse-vnc') -or !$feed.platforms) { throw 'Invalid feed.' }
+if ($feed.schemaVersion -ne 2 -or $feed.appId -notin @('greenhouse-backup','greenhouse-proxy','greenhouse-plc-updater','greenhouse-vnc') -or !$feed.platforms) { throw 'Invalid feed.' }
 $body = [ordered]@{
-    schemaVersion=1; appId=$feed.appId; platforms=$feed.platforms
+    schemaVersion=2; appId=$feed.appId; platforms=$feed.platforms
     signing=[ordered]@{purpose='greenhouse-windows-update';keyId=$public.keyId;issuedUtc=[DateTime]::UtcNow.ToString('o')}
 }
 $bytes = [Text.UTF8Encoding]::new($false).GetBytes(($body | ConvertTo-Json -Depth 15 -Compress))
