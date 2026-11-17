@@ -1,6 +1,6 @@
 # Herstel na 'Kan geen toegang krijgen tot het opgegeven apparaat, pad of bestand'
 
-De herstelversies zijn Proxy **2.2.8**, Backup **1.1.11**, PLC Updater **2.2.12** en VNC Windows **0.1.16**.
+De eerste herstelversies zijn Proxy **2.2.8**, Backup **1.1.11**, PLC Updater **2.2.12** en VNC Windows **0.1.16**. Je kunt ook een nieuwere versie gebruiken. Vanaf deze versies werken volgende updates via de app; de eenmalige installer is alleen nodig voor nog oudere installaties.
 
 ## Op de getroffen Windows-pc
 
