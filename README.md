@@ -4,7 +4,7 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 
 | Tool | Versie | Download |
 | --- | --- | --- |
-| Greenhouse Proxy | 2.2.11 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.11/Setup-Greenhouse-Proxy-2.2.11.exe) |
+| Greenhouse Proxy | 2.2.12 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.12/Setup-Greenhouse-Proxy-2.2.12.exe) |
 | Greenhouse Backup | 1.1.14 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.14/Setup-Greenhouse-Backup-1.1.14.exe) |
 | Greenhouse PLC Updater | 2.2.14 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.14/Setup-Greenhouse-PLC-Updater-2.2.14.exe) |
 | Greenhouse VNC | 0.1.18 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.18/Setup-Greenhouse-VNC-0.1.18.exe) |
@@ -18,6 +18,8 @@ Vanaf Proxy 2.2.8, Backup 1.1.11, PLC Updater 2.2.12 en VNC Windows 0.1.16 werke
 Nieuw in Backup 1.1.14: kies **Mappen & instellingen → Appgegevens toevoegen** om de instellingen van Proxy, PLC Updater en VNC te selecteren. Controleer de gevonden bestanden en kies daarna **Opslaan in OneDrive**. De eigen Backup-configuratie wordt al in OneDrive bewaard. Zie [appgegevens bewaren en herstellen](docs/APP_DATA_BACKUP.md).
 
 Proxy 2.2.9 voegt het menu **Windows Update** toe: plan automatische installaties op een dag en heel uur, laat Windows zelf kiezen of zet automatische updates uit terwijl handmatig bijwerken mogelijk blijft. Zie [Windows Update instellen](docs/WINDOWS_UPDATE.md).
+
+Proxy **2.2.12** herstelt de melding dat er al een actie loopt wanneer je Windows Update tijdens de opstartcontrole opent. Windows Home wordt nu duidelijk herkend: Greenhouse Proxy blijft bruikbaar, maar Home ondersteunt het gebruikte automatische updatebeleid niet. **Windows Update openen** geeft toegang tot de mogelijkheden van Windows zelf. Ook de overdracht van opdrachten naar PowerShell werkt nu bij verschillende Windows-tekencoderingen.
 
 Had je al een geplande back-up met opgeslagen Windows-wachtwoord en de losse EXE? Open na installatie Greenhouse Backup en kies eenmalig **Planning instellen / bijwerken**. Bewaar de oude EXE en de bijbehorende map totdat het bijwerken van de planning is geslaagd. De installatie laat die taak ongemoeid; tot de planning is bijgewerkt gebruikt die het oude programma. Taken zonder opgeslagen Windows-wachtwoord worden automatisch overgezet. Een nieuwe planning gebruikt het geïnstalleerde programma.
 
