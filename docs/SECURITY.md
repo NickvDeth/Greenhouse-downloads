@@ -1,8 +1,12 @@
 # Beveiliging van de Windows-apps
 
-De huidige Windows-uitgave bevat Proxy 2.2.12, Backup 1.1.14, PLC Updater 2.2.14 en VNC Windows 0.1.18. Versies van vóór Proxy 2.2.8, Backup 1.1.11, PLC Updater 2.2.12 of VNC Windows 0.1.16 hebben eenmalig de installer nodig om een fout in bestandsrechten van de eerdere updater te herstellen. Zie [de herstelstappen](UPDATE_RECOVERY.md). De beveiligingsmaatregelen hieronder blijven behouden; Android is niet opnieuw uitgebracht.
+De huidige Windows-uitgave bevat Proxy 2.2.13, Backup 1.1.14, PLC Updater 2.2.14 en VNC Windows 0.1.18. Versies van vóór Proxy 2.2.8, Backup 1.1.11, PLC Updater 2.2.12 of VNC Windows 0.1.16 hebben eenmalig de installer nodig om een fout in bestandsrechten van de eerdere updater te herstellen. Zie [de herstelstappen](UPDATE_RECOVERY.md). De beveiligingsmaatregelen hieronder blijven behouden; Android is niet opnieuw uitgebracht.
 
-Proxy 2.2.9 kan automatische Windows-updates na bevestiging uitschakelen. Dat stopt ook automatische Windows-beveiligingsupdates; handmatig bijwerken blijft mogelijk. Het menu toont deze consequentie en biedt herstel van de eerdere instellingen. De app schakelt geen Windows-services, Defender of updatetaken uit en overschrijft geen centraal of conflicterend updatebeleid. Zie [Windows Update instellen](WINDOWS_UPDATE.md).
+Proxy gebruikt sinds 2.2.9 op ondersteunde Pro-, Education-, Enterprise- en IoT Enterprise-edities Windows-beleid voor automatische updates. Uitschakelen stopt daar ook automatische Windows-beveiligingsupdates; handmatig bijwerken blijft mogelijk.
+
+Vanaf **Proxy 2.2.13** heeft Windows Home een aparte aan/uit-keuze. Uitschakelen stopt de Windows Update-service (`wuauserv`) en schakelt het starten ervan uit. Dat blokkeert ook handmatige Windows Update en Windows-beveiligingsupdates. Er is op Home geen installatieplanning via dit menu. **Windows-updates aan** of **Vorige service-instellingen herstellen** herstelt alleen de oorspronkelijke service-instellingen die Proxy heeft opgeslagen. Zet Windows-updates weer aan voordat je Proxy verwijdert; verwijderen zet de service niet vanzelf terug.
+
+De Home-bediening is geen door Microsoft ondersteund permanent updatebeleid. Windows kan de service later opnieuw inschakelen; Proxy blokkeert dit niet steeds opnieuw op de achtergrond. Een al voorbereide update of herstart kan doorgaan. De app toont de actuele toestand en weigert wijzigingen bij centraal beheer of conflicterende instellingen. Het herstelrecord is alleen schrijfbaar voor beheerders en SYSTEM. Andere services, Defender, updatetaken en herstartinstellingen worden niet aangepast. Updates van Greenhouse Proxy blijven beschikbaar. Zie [Windows Update instellen](WINDOWS_UPDATE.md).
 
 ## Wat is verbeterd?
 
