@@ -5,7 +5,7 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 | Tool | Versie | Download |
 | --- | --- | --- |
 | Greenhouse Proxy | 2.2.11 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.11/Setup-Greenhouse-Proxy-2.2.11.exe) |
-| Greenhouse Backup | 1.1.13 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.13/Setup-Greenhouse-Backup-1.1.13.exe) |
+| Greenhouse Backup | 1.1.14 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.14/Setup-Greenhouse-Backup-1.1.14.exe) |
 | Greenhouse PLC Updater | 2.2.14 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.14/Setup-Greenhouse-PLC-Updater-2.2.14.exe) |
 | Greenhouse VNC | 0.1.18 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.18/Setup-Greenhouse-VNC-0.1.18.exe) |
 
@@ -14,6 +14,8 @@ De vier installatieprogramma’s plaatsen elk programma standaard in een eigen m
 Greenhouse VNC heeft één installatieprogramma dat automatisch de juiste uitvoering voor Windows x64 of ARM64 installeert.
 
 Vanaf Proxy 2.2.8, Backup 1.1.11, PLC Updater 2.2.12 en VNC Windows 0.1.16 werken volgende updates via de app. Nog oudere versies hebben eenmalig de nieuwste installer nodig: de oude updater kon lees-/uitvoerrechten verliezen en is geblokkeerd. De installer kan over de bestaande installatie worden uitgevoerd en behoudt instellingen en planning. Zie [herstel na een toegangsfout](docs/UPDATE_RECOVERY.md).
+
+Nieuw in Backup 1.1.14: kies **Mappen & instellingen → Appgegevens toevoegen** om de instellingen van Proxy, PLC Updater en VNC te selecteren. Controleer de gevonden bestanden en kies daarna **Opslaan in OneDrive**. De eigen Backup-configuratie wordt al in OneDrive bewaard. Zie [appgegevens bewaren en herstellen](docs/APP_DATA_BACKUP.md).
 
 Proxy 2.2.9 voegt het menu **Windows Update** toe: plan automatische installaties op een dag en heel uur, laat Windows zelf kiezen of zet automatische updates uit terwijl handmatig bijwerken mogelijk blijft. Zie [Windows Update instellen](docs/WINDOWS_UPDATE.md).
 
