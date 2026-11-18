@@ -4,10 +4,10 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 
 | Tool | Versie | Download |
 | --- | --- | --- |
-| Greenhouse Proxy | 2.2.10 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.10/Setup-Greenhouse-Proxy-2.2.10.exe) |
-| Greenhouse Backup | 1.1.12 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.12/Setup-Greenhouse-Backup-1.1.12.exe) |
-| Greenhouse PLC Updater | 2.2.13 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.13/Setup-Greenhouse-PLC-Updater-2.2.13.exe) |
-| Greenhouse VNC | 0.1.17 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.17/Setup-Greenhouse-VNC-0.1.17.exe) |
+| Greenhouse Proxy | 2.2.11 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.11/Setup-Greenhouse-Proxy-2.2.11.exe) |
+| Greenhouse Backup | 1.1.13 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.13/Setup-Greenhouse-Backup-1.1.13.exe) |
+| Greenhouse PLC Updater | 2.2.14 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.14/Setup-Greenhouse-PLC-Updater-2.2.14.exe) |
+| Greenhouse VNC | 0.1.18 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.18/Setup-Greenhouse-VNC-0.1.18.exe) |
 
 De vier installatieprogramma’s plaatsen elk programma standaard in een eigen map onder `C:\Program Files\Achterbosch`. Tijdens de installatie kun je kiezen of je een snelkoppeling op het bureaublad wilt.
 
@@ -19,7 +19,9 @@ Proxy 2.2.9 voegt het menu **Windows Update** toe: plan automatische installatie
 
 Had je al een geplande back-up met opgeslagen Windows-wachtwoord en de losse EXE? Open na installatie Greenhouse Backup en kies eenmalig **Planning instellen / bijwerken**. Bewaar de oude EXE en de bijbehorende map totdat het bijwerken van de planning is geslaagd. De installatie laat die taak ongemoeid; tot de planning is bijgewerkt gebruikt die het oude programma. Taken zonder opgeslagen Windows-wachtwoord worden automatisch overgezet. Een nieuwe planning gebruikt het geïnstalleerde programma.
 
-Na deze overstap controleren de Windows-tools bij het starten op nieuwe versies. Bij afsluiten vragen ze of je wilt bijwerken. Bij **Ja** verschijnt een venster met **Download bezig → Update bezig → Update voltooid**. De uitslag blijft zichtbaar totdat je op **OK** klikt. Bij **Nee** worden geen programmabestanden gedownload of gewijzigd. Instellingen, planningen en snelkoppelingen blijven behouden. Windows kan om beheerderstoestemming vragen. Via de updateknop kun je ook handmatig controleren.
+Vanaf Proxy 2.2.11, Backup 1.1.13, PLC Updater 2.2.14 en VNC Windows 0.1.18 verschijnt bij het opstarten een **Ja/Nee**-vraag als een update beschikbaar is. Bij **Nee** kun je doorwerken en blijft **Nu bijwerken** beschikbaar. Er worden dan geen programmabestanden gedownload of gewijzigd. Bij **Ja** of **Nu bijwerken** sluit de app eerst netjes af. Daarna verschijnt **Download bezig → Update bezig → Update voltooid**, zonder een tweede bevestigingsvraag. Het venster blijft op de uitslag staan tot **OK**. Windows kan om beheerderstoestemming vragen. Een uitgestelde update wordt ook bij normaal afsluiten opnieuw aangeboden. Lopende back-ups, PLC-acties en VNC-sessies worden niet onderbroken; geplande back-ups tonen geen updatevraag. Dit geldt voor geïnstalleerde apps; een losse EXE biedt de vertrouwde installer aan en moet vóór installatie handmatig worden gesloten.
+
+Bestaande bureaubladsnelkoppelingen blijven exact behouden, ook wanneer je de nieuwste installer over een bestaande installatie uitvoert. De bureaubladoptie in de installer maakt alleen een ontbrekende snelkoppeling aan; uitvinken verwijdert een bestaand pictogram niet. Zo blijft je bureaubladindeling behouden.
 
 De nieuwe stappenweergave zit in Proxy 2.2.10, Backup 1.1.12, PLC Updater 2.2.13 en VNC Windows 0.1.17. Deze versies herstellen ook een fout waardoor Windows het voortgangsvenster na **Ja** verborgen kon houden. **Installeer voor direct herstel eenmalig de nieuwste installer over de bestaande installatie**, zonder eerst te verwijderen. Instellingen blijven behouden. De eerste automatische update vanuit een oudere versie gebruikt nog de oude updater en kan dus nog onzichtbare voortgang hebben; volgende updates gebruiken de herstelde stappenweergave.
 
