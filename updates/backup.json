@@ -1,52 +1,52 @@
 {
-    "schemaVersion":  2,
-    "appId":  "greenhouse-backup",
-    "platforms":  {
-                      "windows-x64":  {
-                                          "version":  "1.1.13",
-                                          "downloadUrl":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.13/Setup-Greenhouse-Backup-1.1.13.exe",
-                                          "sha256":  "f884ca4926d82250fa1daee6cd41915791806ed535a051a46832883f7395c2b8",
-                                          "bytes":  5258591,
-                                          "files":  [
-                                                        {
-                                                            "path":  "Go-LICENSE.txt",
-                                                            "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.13/update-55b2ec36aca180c6810a20c1fc96ce3c9ee42e041a78da427004ab6e8df1b5b5.zip",
-                                                            "sha256":  "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067",
-                                                            "size":  1479,
-                                                            "archiveSha256":  "55b2ec36aca180c6810a20c1fc96ce3c9ee42e041a78da427004ab6e8df1b5b5",
-                                                            "archiveSize":  892
-                                                        },
-                                                        {
-                                                            "path":  "GreenhouseBackup.exe",
-                                                            "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.13/update-c4cb16c3e1f51571d0342a7989181fcbeef4c86703667981eb920d2529a6ace4.zip",
-                                                            "sha256":  "2e98b9980020049fb365e8d23cec63daaaca14e702e36818bd4fd5a866aab2c8",
-                                                            "size":  9091072,
-                                                            "archiveSha256":  "c4cb16c3e1f51571d0342a7989181fcbeef4c86703667981eb920d2529a6ace4",
-                                                            "archiveSize":  3895487
-                                                        },
-                                                        {
-                                                            "path":  "GreenhouseUpdate.ps1",
-                                                            "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.13/update-68e5112bddd43f4f554e079977e2cec07744617142fac40b50c8aa549d1ab4b4.zip",
-                                                            "sha256":  "eee980f4dba4e6f74ae9963c8efdde747c89f0bf461aa94abb55403726ab92b5",
-                                                            "size":  38879,
-                                                            "archiveSha256":  "68e5112bddd43f4f554e079977e2cec07744617142fac40b50c8aa549d1ab4b4",
-                                                            "archiveSize":  12286
-                                                        },
-                                                        {
-                                                            "path":  "Update-ScheduledTasks.ps1",
-                                                            "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.13/update-c6616708eaea5cd6c98874afbafbb90c7d37ce9ee39377f1c38619e5e08119fe.zip",
-                                                            "sha256":  "a047bbfb1579917684ebd5e39d37736e9afa43fe900c0c44f15a364d1eba8210",
-                                                            "size":  3320,
-                                                            "archiveSha256":  "c6616708eaea5cd6c98874afbafbb90c7d37ce9ee39377f1c38619e5e08119fe",
-                                                            "archiveSize":  1472
-                                                        }
-                                                    ]
-                                      }
-                  },
-    "signedManifest":  {
-                           "algorithm":  "RS256",
-                           "keyId":  "greenhouse-release-2026-11",
-                           "payload":  "eyJzY2hlbWFWZXJzaW9uIjoyLCJhcHBJZCI6ImdyZWVuaG91c2UtYmFja3VwIiwicGxhdGZvcm1zIjp7IndpbmRvd3MteDY0Ijp7InZlcnNpb24iOiIxLjEuMTMiLCJkb3dubG9hZFVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvYmFja3VwLXYxLjEuMTMvU2V0dXAtR3JlZW5ob3VzZS1CYWNrdXAtMS4xLjEzLmV4ZSIsInNoYTI1NiI6ImY4ODRjYTQ5MjZkODIyNTBmYTFkYWVlNmNkNDE5MTU3OTE4MDZlZDUzNWEwNTFhNDY4MzI4ODNmNzM5NWMyYjgiLCJieXRlcyI6NTI1ODU5MSwiZmlsZXMiOlt7InBhdGgiOiJHby1MSUNFTlNFLnR4dCIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvYmFja3VwLXYxLjEuMTMvdXBkYXRlLTU1YjJlYzM2YWNhMTgwYzY4MTBhMjBjMWZjOTZjZTNjOWVlNDJlMDQxYTc4ZGE0MjcwMDRhYjZlOGRmMWI1YjUuemlwIiwic2hhMjU2IjoiMmQzNjU5N2Y3MTE3YzM4YjAwNjgzNWFlN2Y1Mzc0ODcyMDdkOGVjNDA3YWE5ZDk5ODA3OTRiMjAzMGNiYzA2NyIsInNpemUiOjE0NzksImFyY2hpdmVTaGEyNTYiOiI1NWIyZWMzNmFjYTE4MGM2ODEwYTIwYzFmYzk2Y2UzYzllZTQyZTA0MWE3OGRhNDI3MDA0YWI2ZThkZjFiNWI1IiwiYXJjaGl2ZVNpemUiOjg5Mn0seyJwYXRoIjoiR3JlZW5ob3VzZUJhY2t1cC5leGUiLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vTmlja3ZEZXRoL0dyZWVuaG91c2UtZG93bmxvYWRzL3JlbGVhc2VzL2Rvd25sb2FkL2JhY2t1cC12MS4xLjEzL3VwZGF0ZS1jNGNiMTZjM2UxZjUxNTcxZDAzNDJhNzk4OTE4MWZjYmVlZjRjODY3MDM2Njc5ODFlYjkyMGQyNTI5YTZhY2U0LnppcCIsInNoYTI1NiI6IjJlOThiOTk4MDAyMDA0OWZiMzY1ZThkMjNjZWM2M2RhYWFjYTE0ZTcwMmUzNjgxOGJkNGZkNWE4NjZhYWIyYzgiLCJzaXplIjo5MDkxMDcyLCJhcmNoaXZlU2hhMjU2IjoiYzRjYjE2YzNlMWY1MTU3MWQwMzQyYTc5ODkxODFmY2JlZWY0Yzg2NzAzNjY3OTgxZWI5MjBkMjUyOWE2YWNlNCIsImFyY2hpdmVTaXplIjozODk1NDg3fSx7InBhdGgiOiJHcmVlbmhvdXNlVXBkYXRlLnBzMSIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvYmFja3VwLXYxLjEuMTMvdXBkYXRlLTY4ZTUxMTJiZGRkNDNmNGY1NTRlMDc5OTc3ZTJjZWMwNzc0NDYxNzE0MmZhYzQwYjUwYzhhYTU0OWQxYWI0YjQuemlwIiwic2hhMjU2IjoiZWVlOTgwZjRkYmE0ZTZmNzRhZTk5NjNjOGVmZGRlNzQ3Yzg5ZjBiZjQ2MWFhOTRhYmI1NTQwMzcyNmFiOTJiNSIsInNpemUiOjM4ODc5LCJhcmNoaXZlU2hhMjU2IjoiNjhlNTExMmJkZGQ0M2Y0ZjU1NGUwNzk5NzdlMmNlYzA3NzQ0NjE3MTQyZmFjNDBiNTBjOGFhNTQ5ZDFhYjRiNCIsImFyY2hpdmVTaXplIjoxMjI4Nn0seyJwYXRoIjoiVXBkYXRlLVNjaGVkdWxlZFRhc2tzLnBzMSIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvYmFja3VwLXYxLjEuMTMvdXBkYXRlLWM2NjE2NzA4ZWFlYTVjZDZjOTg4NzRhZmJhZmJiOTBjN2QzN2NlOWVlMzkzNzdmMWMzODYxOWU1ZTA4MTE5ZmUuemlwIiwic2hhMjU2IjoiYTA0N2JiZmIxNTc5OTE3Njg0ZWJkNWUzOWQzNzczNmU5YWZhNDNmZTkwMGMwYzQ0ZjE1YTM2NGQxZWJhODIxMCIsInNpemUiOjMzMjAsImFyY2hpdmVTaGEyNTYiOiJjNjYxNjcwOGVhZWE1Y2Q2Yzk4ODc0YWZiYWZiYjkwYzdkMzdjZTllZTM5Mzc3ZjFjMzg2MTllNWUwODExOWZlIiwiYXJjaGl2ZVNpemUiOjE0NzJ9XX19LCJzaWduaW5nIjp7InB1cnBvc2UiOiJncmVlbmhvdXNlLXdpbmRvd3MtdXBkYXRlIiwia2V5SWQiOiJncmVlbmhvdXNlLXJlbGVhc2UtMjAyNi0xMSIsImlzc3VlZFV0YyI6IjIwMjYtMTEtMThUMDY6Mzc6MTcuNzE0MjM2M1oifX0=",
-                           "signature":  "mHWgX0gJlHssTK+jfNabsEIwGrMOdrL5X0sbT5WRB11bZKgCui7lAa1b/8ydpoIKYBQh9qQsnWKuyUDTlIMQMyB1wyEZMQyreiWjH1DP2BZgeNbUIjn3OX0IiLMjwAzArNRprKIobnZ9PdhSJjcl+7W1aeNSvq3zJ3sdo6HGsfImWTKh4jQ73WKNMN5RTrmJQ9S8+LVljFsQqeVEjchydfzliov27v3lHMTl2YUPDryFXCjWY0YJzrKnEjKt17ssP1MY5+aUEHyMdmBj9wJpy3HKeoRCnVDXfAE52uBFQ/9I63wFCtA8whawvOPbMuUHtt3Vx4PMlHLmNAr6JRJncdC6BoMnlSLXsRiqSBasMOgzOWEFLB3o41rCDX/K6HXAzbiDXzG08mWToltEsp5ynth2ZujRWNvmXbeAn9vZQpD7DwPy2oBJ4lJyxBLW5C74+wiirr4E9uY8tHO/ybsZwKrIHJsrkGc6P9BWdNmMGjz6InI8i/wfX4Bd9GBSZX5/+G3OhuBI6S9jYtfLEngPL9eZVhtrIt2eAQNHVr8XJT3ZuAqyYbFLnaNUVAmuaVYoamFMz6velmFYMEYjEzBiqZQuto1HdDLIhJNwd2CeKfSO9jpikKwf3bboWiGcsJNIHiahncS2Sil8V/ua22UClXEOkwsOp5/3tHnaRKoXimA="
-                       }
+  "schemaVersion": 2,
+  "appId": "greenhouse-backup",
+  "platforms": {
+    "windows-x64": {
+      "version": "1.1.14",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.14/Setup-Greenhouse-Backup-1.1.14.exe",
+      "sha256": "ba7c9c52d8ab28bbd98a1c897138900f3890c4f347b02e0a86e3978e6882d29d",
+      "bytes": 5270760,
+      "files": [
+        {
+          "path": "Go-LICENSE.txt",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.14/update-55b2ec36aca180c6810a20c1fc96ce3c9ee42e041a78da427004ab6e8df1b5b5.zip",
+          "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067",
+          "size": 1479,
+          "archiveSha256": "55b2ec36aca180c6810a20c1fc96ce3c9ee42e041a78da427004ab6e8df1b5b5",
+          "archiveSize": 892
+        },
+        {
+          "path": "GreenhouseBackup.exe",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.14/update-c1ac3fdb9193538c7032fdc3e101097284d415646c8e7a8767679235939d8124.zip",
+          "sha256": "675265754cca28c941011317b17b6af5e610f10986623385df4b692f8e1e24a2",
+          "size": 9131520,
+          "archiveSha256": "c1ac3fdb9193538c7032fdc3e101097284d415646c8e7a8767679235939d8124",
+          "archiveSize": 3908731
+        },
+        {
+          "path": "GreenhouseUpdate.ps1",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.14/update-68e5112bddd43f4f554e079977e2cec07744617142fac40b50c8aa549d1ab4b4.zip",
+          "sha256": "eee980f4dba4e6f74ae9963c8efdde747c89f0bf461aa94abb55403726ab92b5",
+          "size": 38879,
+          "archiveSha256": "68e5112bddd43f4f554e079977e2cec07744617142fac40b50c8aa549d1ab4b4",
+          "archiveSize": 12286
+        },
+        {
+          "path": "Update-ScheduledTasks.ps1",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.14/update-c6616708eaea5cd6c98874afbafbb90c7d37ce9ee39377f1c38619e5e08119fe.zip",
+          "sha256": "a047bbfb1579917684ebd5e39d37736e9afa43fe900c0c44f15a364d1eba8210",
+          "size": 3320,
+          "archiveSha256": "c6616708eaea5cd6c98874afbafbb90c7d37ce9ee39377f1c38619e5e08119fe",
+          "archiveSize": 1472
+        }
+      ]
+    }
+  },
+  "signedManifest": {
+    "algorithm": "RS256",
+    "keyId": "greenhouse-release-2026-11",
+    "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJhcHBJZCI6ImdyZWVuaG91c2UtYmFja3VwIiwicGxhdGZvcm1zIjp7IndpbmRvd3MteDY0Ijp7InZlcnNpb24iOiIxLjEuMTQiLCJkb3dubG9hZFVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvYmFja3VwLXYxLjEuMTQvU2V0dXAtR3JlZW5ob3VzZS1CYWNrdXAtMS4xLjE0LmV4ZSIsInNoYTI1NiI6ImJhN2M5YzUyZDhhYjI4YmJkOThhMWM4OTcxMzg5MDBmMzg5MGM0ZjM0N2IwMmUwYTg2ZTM5NzhlNjg4MmQyOWQiLCJieXRlcyI6NTI3MDc2MCwiZmlsZXMiOlt7InBhdGgiOiJHby1MSUNFTlNFLnR4dCIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvYmFja3VwLXYxLjEuMTQvdXBkYXRlLTU1YjJlYzM2YWNhMTgwYzY4MTBhMjBjMWZjOTZjZTNjOWVlNDJlMDQxYTc4ZGE0MjcwMDRhYjZlOGRmMWI1YjUuemlwIiwic2hhMjU2IjoiMmQzNjU5N2Y3MTE3YzM4YjAwNjgzNWFlN2Y1Mzc0ODcyMDdkOGVjNDA3YWE5ZDk5ODA3OTRiMjAzMGNiYzA2NyIsInNpemUiOjE0NzksImFyY2hpdmVTaGEyNTYiOiI1NWIyZWMzNmFjYTE4MGM2ODEwYTIwYzFmYzk2Y2UzYzllZTQyZTA0MWE3OGRhNDI3MDA0YWI2ZThkZjFiNWI1IiwiYXJjaGl2ZVNpemUiOjg5Mn0seyJwYXRoIjoiR3JlZW5ob3VzZUJhY2t1cC5leGUiLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vTmlja3ZEZXRoL0dyZWVuaG91c2UtZG93bmxvYWRzL3JlbGVhc2VzL2Rvd25sb2FkL2JhY2t1cC12MS4xLjE0L3VwZGF0ZS1jMWFjM2ZkYjkxOTM1MzhjNzAzMmZkYzNlMTAxMDk3Mjg0ZDQxNTY0NmM4ZTdhODc2NzY3OTIzNTkzOWQ4MTI0LnppcCIsInNoYTI1NiI6IjY3NTI2NTc1NGNjYTI4Yzk0MTAxMTMxN2IxN2I2YWY1ZTYxMGYxMDk4NjYyMzM4NWRmNGI2OTJmOGUxZTI0YTIiLCJzaXplIjo5MTMxNTIwLCJhcmNoaXZlU2hhMjU2IjoiYzFhYzNmZGI5MTkzNTM4YzcwMzJmZGMzZTEwMTA5NzI4NGQ0MTU2NDZjOGU3YTg3Njc2NzkyMzU5MzlkODEyNCIsImFyY2hpdmVTaXplIjozOTA4NzMxfSx7InBhdGgiOiJHcmVlbmhvdXNlVXBkYXRlLnBzMSIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvYmFja3VwLXYxLjEuMTQvdXBkYXRlLTY4ZTUxMTJiZGRkNDNmNGY1NTRlMDc5OTc3ZTJjZWMwNzc0NDYxNzE0MmZhYzQwYjUwYzhhYTU0OWQxYWI0YjQuemlwIiwic2hhMjU2IjoiZWVlOTgwZjRkYmE0ZTZmNzRhZTk5NjNjOGVmZGRlNzQ3Yzg5ZjBiZjQ2MWFhOTRhYmI1NTQwMzcyNmFiOTJiNSIsInNpemUiOjM4ODc5LCJhcmNoaXZlU2hhMjU2IjoiNjhlNTExMmJkZGQ0M2Y0ZjU1NGUwNzk5NzdlMmNlYzA3NzQ0NjE3MTQyZmFjNDBiNTBjOGFhNTQ5ZDFhYjRiNCIsImFyY2hpdmVTaXplIjoxMjI4Nn0seyJwYXRoIjoiVXBkYXRlLVNjaGVkdWxlZFRhc2tzLnBzMSIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvYmFja3VwLXYxLjEuMTQvdXBkYXRlLWM2NjE2NzA4ZWFlYTVjZDZjOTg4NzRhZmJhZmJiOTBjN2QzN2NlOWVlMzkzNzdmMWMzODYxOWU1ZTA4MTE5ZmUuemlwIiwic2hhMjU2IjoiYTA0N2JiZmIxNTc5OTE3Njg0ZWJkNWUzOWQzNzczNmU5YWZhNDNmZTkwMGMwYzQ0ZjE1YTM2NGQxZWJhODIxMCIsInNpemUiOjMzMjAsImFyY2hpdmVTaGEyNTYiOiJjNjYxNjcwOGVhZWE1Y2Q2Yzk4ODc0YWZiYWZiYjkwYzdkMzdjZTllZTM5Mzc3ZjFjMzg2MTllNWUwODExOWZlIiwiYXJjaGl2ZVNpemUiOjE0NzJ9XX19LCJzaWduaW5nIjp7InB1cnBvc2UiOiJncmVlbmhvdXNlLXdpbmRvd3MtdXBkYXRlIiwia2V5SWQiOiJncmVlbmhvdXNlLXJlbGVhc2UtMjAyNi0xMSIsImlzc3VlZFV0YyI6IjIwMjYtMTEtMThUMDg6MzU6MDIuNDQ2NjczMloifX0=",
+    "signature": "BcOfB2X6YUD6ZYmmwL64YItM/mb9d6XSOzImHlYgK0AqB6OciF+Ru4B1aNguv7JBfZdu9t3PCz1Mxk70qMw45XcJIKzB5SJaciw52ZecHa7sun5dpoIL1DhhCwTTSeNwyC/1fj7OTQABefhB4sqlnwMTHrrc4qoSbXw3+2fBJicFiW7H128QrvZPNJ3C+q19bJ4Uu6jOj2BRjc3qWNc7GlwQnw0GiJXxKR/KjK+EDymEs6T+dEk2SsnVBD1McR0wg9MTPJBYNQHjH+U9kRctFbDKrk4VB3nHVc6qg+567GkupIJrrNJkVqbcB9RfcD8RJ4k6j5Uw/Hm8Lxf+JSOyVV8utJg95XzjUBLY2uuIpJRgidWoiD+oDsvVUn2Ys6emcorG6Xwl+ppyb6MriEScISnDWUnUSeBx/XUal7PXR909yj8xVM57Ssy6jEDvm4aGBgXsn+kIg4bjrq01Ptk07XnKxrmzZmhsreaHyDbkfnQUtX90k1cyfwr2FiR+8w2ikncBHv4mSHs9hbzt/N20llC8X8BNiSJmTgYD+w5nt8Y5y1OHWzVn+CBSk7LvqzbTYsxGtCzYLKmupJmQoWfXKPVLVmG53TAvASjuqtr/gT7zx6yvP3BGzhXxa0LHns9z4YUzBj1OdfLvg16oWrt6zk7Rdh60bC5xEtR6m0Lx50Q="
+  }
 }
