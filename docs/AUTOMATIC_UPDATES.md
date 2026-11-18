@@ -2,7 +2,9 @@
 
 Vanaf Proxy 2.2.8, Backup 1.1.11, PLC Updater 2.2.12 en VNC Windows 0.1.16 gebruikt de gedeelde updater manifestprotocol 2. Installeer deze herstelversies eenmalig, ook als een oudere updater aanwezig is. Protocol 1 is gestopt vanwege verlies van lees-/uitvoerrechten bij bestandsvervanging. Zie [herstelinstructies](UPDATE_RECOVERY.md).
 
-Tijdens gebruik wordt alleen de ondertekende versie-informatie opgehaald. Bij afsluiten volgt een Ja/Nee-vraag, standaard Nee. Alleen na Ja start het zichtbare updatevenster met **Download bezig → Update bezig → Update voltooid** en worden gewijzigde programmabestanden gedownload, gecontroleerd en geinstalleerd. Windows kan om beheerderstoestemming vragen. Annuleren kan tijdens downloaden/wachten; de vervanging en eventuele rollback worden niet onderbroken. Het venster blijft op de uitslag staan tot **OK**.
+Vanaf Proxy 2.2.11, Backup 1.1.13, PLC Updater 2.2.14 en VNC Windows 0.1.18 verschijnt bij het opstarten een **Ja/Nee**-vraag als een update beschikbaar is. Bij **Nee** kun je doorwerken en blijft **Nu bijwerken** beschikbaar. Er worden dan geen programmabestanden gedownload of gewijzigd. Bij **Ja** of **Nu bijwerken** sluit de app eerst netjes af. Daarna verschijnt **Download bezig → Update bezig → Update voltooid**, zonder een tweede bevestigingsvraag. Het venster blijft op de uitslag staan tot **OK**. Windows kan om beheerderstoestemming vragen. Een uitgestelde update wordt ook bij normaal afsluiten opnieuw aangeboden. Lopende back-ups, PLC-acties en VNC-sessies worden niet onderbroken; geplande back-ups tonen geen updatevraag. Dit geldt voor geïnstalleerde apps; een losse EXE biedt de vertrouwde installer aan en moet vóór installatie handmatig worden gesloten.
+
+Bestaande bureaubladsnelkoppelingen blijven exact behouden, ook wanneer je de nieuwste installer over een bestaande installatie uitvoert. De bureaubladoptie in de installer maakt alleen een ontbrekende snelkoppeling aan; uitvinken verwijdert een bestaand pictogram niet. Zo blijft je bureaubladindeling behouden.
 
 De nieuwe weergave zit in de updater van Proxy 2.2.10, Backup 1.1.12, PLC Updater 2.2.13 en VNC Windows 0.1.17. De helper maakt zijn eigen venster nu expliciet zichtbaar, zodat het verborgen starten van PowerShell niet ook het voortgangsvenster verbergt. Tijdens de eerste automatische update naar deze versies draait nog de oude geïnstalleerde helper; die kan de voortgang dus nog verborgen houden. Installeer voor direct herstel eenmalig de nieuwste installer over de bestaande installatie, zonder eerst te verwijderen. Instellingen blijven behouden; volgende updates gebruiken de nieuwe stappenweergave.
 
@@ -13,6 +15,10 @@ De updater vergelijkt SHA-256 per bestand en slaat ongewijzigde bestanden over. 
 Vanaf Proxy 2.2.7, Backup 1.1.10, PLC Updater 2.2.11 en VNC Windows 0.1.15 vereist de geinstalleerde updater bovendien een RSA-4096/SHA-256-ondertekening. De openbare controlesleutel staat vast in de helper onder Program Files. Alle versies, bestandsnamen, downloadlocaties en hashes worden uit de ondertekende payload gelezen; gewijzigde buitenste JSON-velden kunnen geen installatie autoriseren. Beide updatefasen controleren de handtekening opnieuw. De prive-sleutel staat niet in GitHub of GitHub Actions.
 
 De eerste overstap moet via de herstelinstaller gebeuren: oude helpers weigeren protocol 2 en passen de nieuwe bestanden niet toe. Nieuwe helpers accepteren uitsluitend protocol 2, controleren beide keren de handtekening en herstellen de juiste bestandsrechten. Een handtekening voorkomt geen ontbrekende/geblokkeerde updates, fouten in vertrouwde software of misbruik door een beheerder die de geinstalleerde helper kan vervangen.
+
+## Toestemming en veilige afsluiting
+
+De app haalt bij de opstartcontrole alleen versie-informatie op. Na toestemming start zij de geïnstalleerde helper met `-InstallNow -ExpectedVersion <versie> -ParentProcessId <proces>`. De helper verifieert de ondertekende gegevens, accepteert uitsluitend de gekozen versie en wacht op het werkelijke einde van het appproces voordat downloaden of installeren begint. Een geannuleerde afsluiting stopt uitsluitend de eigen wachtende helper. Bij normaal afsluiten na uitstel vraagt de helper zelf om toestemming. De app start nooit rechtstreeks de verhoogde `-Apply`-fase.
 
 ## Een nieuwe uitgave voorbereiden
 
@@ -41,6 +47,6 @@ Deze updateondertekening is geen officieel Authenticode-uitgeverscertificaat. De
 
 ## Bij een onderbreking
 
-Een afgebroken of ongeldige download wordt niet toegepast. Tijdens gebruik wacht de helper; lopende processen worden nooit beëindigd. Bij een vervangfout worden eerdere bestanden teruggezet. Als ook herstel mislukt, blijven de eerdere bestanden met `RECOVERY.txt` in de afgeschermde `.update-*`-map onder de installatie staan.
+Een afgebroken of ongeldige download wordt niet toegepast. Een gestarte helper wacht op het afsluiten van de app; lopende processen worden nooit geforceerd beëindigd. Bij een vervangfout worden eerdere bestanden teruggezet. Als ook herstel mislukt, blijven de eerdere bestanden met `RECOVERY.txt` in de afgeschermde `.update-*`-map onder de installatie staan.
 
 Status en log staan onder `%LOCALAPPDATA%\Achterbosch\Updates\<appId>`. Na een fout kan de gebruiker in de app opnieuw controleren. De updater maakt geen services of geplande updatetaken aan en bewaart geen Windows-wachtwoorden.
