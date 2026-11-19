@@ -44,12 +44,12 @@
             <div class="tool-identity">
               <span class="tool-category">Verbindingen</span>
               <h3 id="proxy-title">Greenhouse Proxy</h3>
-              <span class="version">Versie 2.2.15</span>
+              <span class="version">Versie 2.2.16</span>
             </div>
           </div>
-          <p class="tool-description">Beheer poortkoppelingen, tijdsynchronisatie en Windows-updates, met aan/uit-bediening voor Windows Home.</p>
+          <p class="tool-description">Kies een bestaande proxyconfiguratie of beheer zelf poortkoppelingen, tijdsynchronisatie en Windows-updates.</p>
           <div class="download-area">
-            <a class="download-button" href="https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.15/Setup-Greenhouse-Proxy-2.2.15.exe" aria-label="Greenhouse Proxy 2.2.15 downloaden voor Windows">
+            <a class="download-button" href="https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.16/Setup-Greenhouse-Proxy-2.2.16.exe" aria-label="Greenhouse Proxy 2.2.16 downloaden voor Windows">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/></svg>
               <span>Download voor Windows</span>
             </a>
@@ -123,7 +123,8 @@
         <p><strong>Oudere installaties hebben eenmalig de nieuwste installer nodig.</strong> De oude updater kon de toegang tot programmabestanden blokkeren. De installer herstelt de lees- en uitvoerrechten, ook als het programma niet meer start. Voer hem uit over de bestaande installatie; je instellingen blijven behouden. <a href="https://github.com/NickvDeth/Greenhouse-downloads/blob/main/docs/UPDATE_RECOVERY.md">Herstelinstructies</a>.</p>
         <p>De vier installatieprogramma’s plaatsen elk programma standaard in een eigen map onder <strong>C:\Program Files\Achterbosch</strong>. Je kiest tijdens de installatie of je een snelkoppeling op het bureaublad wilt.</p>
         <p>Vanaf Proxy 2.2.8, Backup 1.1.11, PLC Updater 2.2.12 en VNC Windows 0.1.16 werken volgende updates via de app. Alleen nog oudere versies hebben de eenmalige overstap nodig. Laat lopende PLC-updates en back-ups afronden en sluit het programma voordat je een installer uitvoert.</p>
-        <p>Nieuw in Proxy 2.2.15: de taak <strong>RimoteGreenhouseProxy</strong> staat onder <strong>Taakplannerbibliotheek → Microsoft → Windows</strong>. Kies na bijwerken eenmaal <strong>Taakplanner → Planning opslaan</strong> om een eerdere app-taak uit de hoofdmap over te zetten. Het PowerShell-script en extra logbestand blijven in <strong>C:\Program Files\Rimote\Achterbosch\GreenhouseProxy</strong>. <a href="https://github.com/NickvDeth/Greenhouse-downloads/blob/main/docs/PROXY_TASK_SCRIPT.md">Taaklocatie, script en logbestand</a>.</p>
+        <p>Nieuw in Proxy 2.2.16: kies <strong>Bestaande proxy gebruiken</strong> voor <strong>Achterbosch, Fikona, Stadsweiden, Trayplant of Wouters</strong>. Controleer de verbindingen en laad één volledige proxyconfiguratie. Je kunt de machines daarna aanpassen. <strong>Opslaan</strong> bewaart de configuratie; <strong>Configuratie toepassen</strong> stelt de netwerkregels in. <a href="https://github.com/NickvDeth/Greenhouse-downloads/blob/main/docs/PROXY_PRESETS.md">Beschikbare configuraties en gebruik</a>.</p>
+        <p>Sinds Proxy 2.2.15 staat de taak <strong>RimoteGreenhouseProxy</strong> onder <strong>Taakplannerbibliotheek → Microsoft → Windows</strong>. Kies na bijwerken eenmaal <strong>Taakplanner → Planning opslaan</strong> om een eerdere app-taak uit de hoofdmap over te zetten. Het PowerShell-script en extra logbestand blijven in <strong>C:\Program Files\Rimote\Achterbosch\GreenhouseProxy</strong>. <a href="https://github.com/NickvDeth/Greenhouse-downloads/blob/main/docs/PROXY_TASK_SCRIPT.md">Taaklocatie, script en logbestand</a>.</p>
         <p>Sinds Proxy 2.2.13: kies op Windows Home <strong>Windows-updates uit</strong> of <strong>Windows-updates aan</strong>. Uitzetten stopt de Windows Update-service; automatische én handmatige Windows-updates, inclusief Windows-beveiligingsupdates, werken dan niet. Aanzetten herstelt de oorspronkelijke, door Proxy opgeslagen service-instellingen. Er is op Home geen installatieplanning. Zet updates weer aan voordat je Proxy verwijdert.</p>
         <p>De Home-bediening is geen door Microsoft ondersteund permanent updatebeleid: Windows kan de service later opnieuw inschakelen en een al voorbereide update of herstart kan doorgaan. Op ondersteunde Pro-, Education-, Enterprise- en IoT Enterprise-edities blijft het updatebeleid voor planning en automatisch uitschakelen beschikbaar; handmatig bijwerken blijft daar mogelijk. Updates van Greenhouse Proxy blijven beschikbaar. <a href="https://github.com/NickvDeth/Greenhouse-downloads/blob/main/docs/WINDOWS_UPDATE.md">Uitleg en ondersteunde Windows-edities</a>.</p>
         <p>De oplossingen uit Proxy 2.2.12 blijven behouden: Windows Update openen wacht op de opstartcontrole, Windows Home wordt duidelijk herkend en opdrachten naar PowerShell werken met verschillende Windows-tekencoderingen.</p>

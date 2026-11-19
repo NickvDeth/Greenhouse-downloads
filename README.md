@@ -4,7 +4,7 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 
 | Tool | Versie | Download |
 | --- | --- | --- |
-| Greenhouse Proxy | 2.2.15 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.15/Setup-Greenhouse-Proxy-2.2.15.exe) |
+| Greenhouse Proxy | 2.2.16 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.16/Setup-Greenhouse-Proxy-2.2.16.exe) |
 | Greenhouse Backup | 1.1.14 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.14/Setup-Greenhouse-Backup-1.1.14.exe) |
 | Greenhouse PLC Updater | 2.2.14 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.14/Setup-Greenhouse-PLC-Updater-2.2.14.exe) |
 | Greenhouse VNC | 0.1.18 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.18/Setup-Greenhouse-VNC-0.1.18.exe) |
@@ -12,6 +12,8 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 De vier installatieprogramma’s plaatsen elk programma standaard in een eigen map onder `C:\Program Files\Achterbosch`. Tijdens de installatie kun je kiezen of je een snelkoppeling op het bureaublad wilt.
 
 Greenhouse VNC heeft één installatieprogramma dat automatisch de juiste uitvoering voor Windows x64 of ARM64 installeert.
+
+Nieuw in Proxy **2.2.16**: kies **Bestaande proxy gebruiken** op **Machines** of **Bestanden & info**. Je ziet een overzicht van een vooraf ingestelde proxy voordat je de hele machinelijst vervangt. **Opslaan** bewaart de keuze; **Configuratie toepassen** stelt de netwerkregels in. Alle vijf configuraties zijn beschikbaar: **Achterbosch**, **Fikona**, **Stadsweiden**, **Trayplant** en **Wouters**. Zie [beschikbare configuraties en gebruik](docs/PROXY_PRESETS.md).
 
 Nieuw in Proxy **2.2.15**: de taak **RimoteGreenhouseProxy** staat weer onder **Taakplannerbibliotheek → Microsoft → Windows**. Kies na een automatische app-update eenmaal **Taakplanner → Planning opslaan**. Een herkende eerdere app-taak in de hoofdmap wordt gecontroleerd overgezet. Het PowerShell-script en extra logbestand blijven op dezelfde plek staan. Zie [taakscript en taaklocatie](docs/PROXY_TASK_SCRIPT.md).
 
