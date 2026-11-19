@@ -1,44 +1,44 @@
 {
-    "schemaVersion":  2,
-    "appId":  "greenhouse-plc-updater",
-    "platforms":  {
-                      "windows-anycpu":  {
-                                             "version":  "2.2.14",
-                                             "downloadUrl":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.14/Setup-Greenhouse-PLC-Updater-2.2.14.exe",
-                                             "sha256":  "9bc9d60627948baae721180b1da58a8c0a02da8165ea46b8b4bd94b6443a6459",
-                                             "bytes":  2576487,
-                                             "files":  [
-                                                           {
-                                                               "path":  "GreenhouseUpdate.ps1",
-                                                               "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.14/update-4a755b53ef1802eb4d9735bb6694d3f888e2fdd24418a44743776c5d1d80ba7c.zip",
-                                                               "sha256":  "5899bd5d94a4153d950ab9716c09b35882ed9639adf3a1a9830ddc546ac53f9e",
-                                                               "size":  39479,
-                                                               "archiveSha256":  "4a755b53ef1802eb4d9735bb6694d3f888e2fdd24418a44743776c5d1d80ba7c",
-                                                               "archiveSize":  12401
-                                                           },
-                                                           {
-                                                               "path":  "LEESMIJ.txt",
-                                                               "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.14/update-4af1599f7be246aa1bf1db75f678ae860a576ddda7e9da6dbbb7bf4170b3a989.zip",
-                                                               "sha256":  "d9cfe94a84eba3137c5806bab696eb79d372bbfb033a82da58c3fe47ed2858b7",
-                                                               "size":  66954,
-                                                               "archiveSha256":  "4af1599f7be246aa1bf1db75f678ae860a576ddda7e9da6dbbb7bf4170b3a989",
-                                                               "archiveSize":  21597
-                                                           },
-                                                           {
-                                                               "path":  "PLC-Updater.exe",
-                                                               "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.14/update-4af529d4d3684f5717d57f565905ee3a5549ecb58b01f10175565ed252120cdb.zip",
-                                                               "sha256":  "5d1126f808168cf2d26709720f949b36a1e939e462d6536a3803e425af638b68",
-                                                               "size":  910336,
-                                                               "archiveSha256":  "4af529d4d3684f5717d57f565905ee3a5549ecb58b01f10175565ed252120cdb",
-                                                               "archiveSize":  461303
-                                                           }
-                                                       ]
-                                         }
-                  },
-    "signedManifest":  {
-                           "algorithm":  "RS256",
-                           "keyId":  "greenhouse-release-2026-11",
-                           "payload":  "eyJzY2hlbWFWZXJzaW9uIjoyLCJhcHBJZCI6ImdyZWVuaG91c2UtcGxjLXVwZGF0ZXIiLCJwbGF0Zm9ybXMiOnsid2luZG93cy1hbnljcHUiOnsidmVyc2lvbiI6IjIuMi4xNCIsImRvd25sb2FkVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC9wbGMtdXBkYXRlci12Mi4yLjE0L1NldHVwLUdyZWVuaG91c2UtUExDLVVwZGF0ZXItMi4yLjE0LmV4ZSIsInNoYTI1NiI6IjliYzlkNjA2Mjc5NDhiYWFlNzIxMTgwYjFkYTU4YThjMGEwMmRhODE2NWVhNDZiOGI0YmQ5NGI2NDQzYTY0NTkiLCJieXRlcyI6MjU3NjQ4NywiZmlsZXMiOlt7InBhdGgiOiJHcmVlbmhvdXNlVXBkYXRlLnBzMSIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvcGxjLXVwZGF0ZXItdjIuMi4xNC91cGRhdGUtNGE3NTViNTNlZjE4MDJlYjRkOTczNWJiNjY5NGQzZjg4OGUyZmRkMjQ0MThhNDQ3NDM3NzZjNWQxZDgwYmE3Yy56aXAiLCJzaGEyNTYiOiI1ODk5YmQ1ZDk0YTQxNTNkOTUwYWI5NzE2YzA5YjM1ODgyZWQ5NjM5YWRmM2ExYTk4MzBkZGM1NDZhYzUzZjllIiwic2l6ZSI6Mzk0NzksImFyY2hpdmVTaGEyNTYiOiI0YTc1NWI1M2VmMTgwMmViNGQ5NzM1YmI2Njk0ZDNmODg4ZTJmZGQyNDQxOGE0NDc0Mzc3NmM1ZDFkODBiYTdjIiwiYXJjaGl2ZVNpemUiOjEyNDAxfSx7InBhdGgiOiJMRUVTTUlKLnR4dCIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvcGxjLXVwZGF0ZXItdjIuMi4xNC91cGRhdGUtNGFmMTU5OWY3YmUyNDZhYTFiZjFkYjc1ZjY3OGFlODYwYTU3NmRkZGE3ZTlkYTZkYmJiN2JmNDE3MGIzYTk4OS56aXAiLCJzaGEyNTYiOiJkOWNmZTk0YTg0ZWJhMzEzN2M1ODA2YmFiNjk2ZWI3OWQzNzJiYmZiMDMzYTgyZGE1OGMzZmU0N2VkMjg1OGI3Iiwic2l6ZSI6NjY5NTQsImFyY2hpdmVTaGEyNTYiOiI0YWYxNTk5ZjdiZTI0NmFhMWJmMWRiNzVmNjc4YWU4NjBhNTc2ZGRkYTdlOWRhNmRiYmI3YmY0MTcwYjNhOTg5IiwiYXJjaGl2ZVNpemUiOjIxNTk3fSx7InBhdGgiOiJQTEMtVXBkYXRlci5leGUiLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vTmlja3ZEZXRoL0dyZWVuaG91c2UtZG93bmxvYWRzL3JlbGVhc2VzL2Rvd25sb2FkL3BsYy11cGRhdGVyLXYyLjIuMTQvdXBkYXRlLTRhZjUyOWQ0ZDM2ODRmNTcxN2Q1N2Y1NjU5MDVlZTNhNTU0OWVjYjU4YjAxZjEwMTc1NTY1ZWQyNTIxMjBjZGIuemlwIiwic2hhMjU2IjoiNWQxMTI2ZjgwODE2OGNmMmQyNjcwOTcyMGY5NDliMzZhMWU5MzllNDYyZDY1MzZhMzgwM2U0MjVhZjYzOGI2OCIsInNpemUiOjkxMDMzNiwiYXJjaGl2ZVNoYTI1NiI6IjRhZjUyOWQ0ZDM2ODRmNTcxN2Q1N2Y1NjU5MDVlZTNhNTU0OWVjYjU4YjAxZjEwMTc1NTY1ZWQyNTIxMjBjZGIiLCJhcmNoaXZlU2l6ZSI6NDYxMzAzfV19fSwic2lnbmluZyI6eyJwdXJwb3NlIjoiZ3JlZW5ob3VzZS13aW5kb3dzLXVwZGF0ZSIsImtleUlkIjoiZ3JlZW5ob3VzZS1yZWxlYXNlLTIwMjYtMTEiLCJpc3N1ZWRVdGMiOiIyMDI2LTExLTE4VDA2OjE5OjI4LjQ5ODYyMTZaIn19",
-                           "signature":  "or8ckwXcEuGYZs4x4ysQmFLxKLnabHf3FluHwdrgbAeo3ZA3fNr2k3ITjXT1OVpQvNUuYNerFQQSaPlJARp3Qij2OGmdJWBuvAsMM+/Wn8krwD0kki1is0bCFgPyKxSZGndCcfq3tuWeAf3iKkaMOKCTep3ACS6cLrJlpQSvUBiOAShtLF+o00l54mnafoG+kXfkNzD/M0roiHkJ0kGKSlV4xtu2rO9hztmGZvPBlCOAW1/rM4jfMepZF6KP9gejVNdLtVitW7r1qnm4aXapf9BbM1qheLN1RzR1IGuDuoMfRPqTsy4hQQHXp+LpRliJozfVprbMKLrI/uuYCWHyHNFmX0er+/DFTQZnY/WGHjtBAhcah7jfX2CXTexpKUq+QzzDPlaTqZJOK3scK7PZ5Hvsxx+lA36yqB0+QpwD8zLGwi0dcJ7qGpcqifK0iRA6NeZiDzUzd/qfIF6mVMulmAeSn3Sz/+lng4MmSEsIEwgUm97jFMHYf49wq1HTC6ig2go7t++tEmQqMz7YdP30F3wupnQtcghH1cdEt1rWKH6efCg0DcV8ubf5g7QW3fS9T6RubFDNwWhsopR9xw8hIAjrBI/+N3Y80DJQ7pSPqu36eCONUBdMo6BLz/v5Gf9o6QaKBd0QFdtmXUC9v7TfPx+11XnrfyY3qSo68mPPbBA="
-                       }
+  "schemaVersion": 2,
+  "appId": "greenhouse-plc-updater",
+  "platforms": {
+    "windows-anycpu": {
+      "version": "2.2.15",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.15/Setup-Greenhouse-PLC-Updater-2.2.15.exe",
+      "sha256": "03470e4925ee376be48034540eebe13457ed8d6bf74271ab695b924f95ed068a",
+      "bytes": 2577230,
+      "files": [
+        {
+          "path": "GreenhouseUpdate.ps1",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.15/update-87d36f9d905a69dee51f830e5413ce5db4bdb82e52dbe18e97bdbac895b6e829.zip",
+          "sha256": "8acc3ea623d133d507bae8f164edbe51124802ed1f4dce9c7c31ccc84dc1d7f9",
+          "size": 42251,
+          "archiveSha256": "87d36f9d905a69dee51f830e5413ce5db4bdb82e52dbe18e97bdbac895b6e829",
+          "archiveSize": 13078
+        },
+        {
+          "path": "LEESMIJ.txt",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.15/update-a95fe018483c37905daa32d450e1fab2dfb67400fc6ee1faa69be98f1269ffd8.zip",
+          "sha256": "45abab5a54c0a4e461f2ae1ef640565c96b37a07fae4888b1a397fbda470de41",
+          "size": 67213,
+          "archiveSha256": "a95fe018483c37905daa32d450e1fab2dfb67400fc6ee1faa69be98f1269ffd8",
+          "archiveSize": 21670
+        },
+        {
+          "path": "PLC-Updater.exe",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.15/update-00fc7574191598b1c42bffb3dfaa922083a7c3e933669be5363beee3ec0a40a7.zip",
+          "sha256": "be8df8f0ba6ca94ce2c64986c85d05b7d0aa7fe8b8aeb560ceb9643382b4d8bb",
+          "size": 910336,
+          "archiveSha256": "00fc7574191598b1c42bffb3dfaa922083a7c3e933669be5363beee3ec0a40a7",
+          "archiveSize": 461280
+        }
+      ]
+    }
+  },
+  "signedManifest": {
+    "algorithm": "RS256",
+    "keyId": "greenhouse-release-2026-11",
+    "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJhcHBJZCI6ImdyZWVuaG91c2UtcGxjLXVwZGF0ZXIiLCJwbGF0Zm9ybXMiOnsid2luZG93cy1hbnljcHUiOnsidmVyc2lvbiI6IjIuMi4xNSIsImRvd25sb2FkVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC9wbGMtdXBkYXRlci12Mi4yLjE1L1NldHVwLUdyZWVuaG91c2UtUExDLVVwZGF0ZXItMi4yLjE1LmV4ZSIsInNoYTI1NiI6IjAzNDcwZTQ5MjVlZTM3NmJlNDgwMzQ1NDBlZWJlMTM0NTdlZDhkNmJmNzQyNzFhYjY5NWI5MjRmOTVlZDA2OGEiLCJieXRlcyI6MjU3NzIzMCwiZmlsZXMiOlt7InBhdGgiOiJHcmVlbmhvdXNlVXBkYXRlLnBzMSIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvcGxjLXVwZGF0ZXItdjIuMi4xNS91cGRhdGUtODdkMzZmOWQ5MDVhNjlkZWU1MWY4MzBlNTQxM2NlNWRiNGJkYjgyZTUyZGJlMThlOTdiZGJhYzg5NWI2ZTgyOS56aXAiLCJzaGEyNTYiOiI4YWNjM2VhNjIzZDEzM2Q1MDdiYWU4ZjE2NGVkYmU1MTEyNDgwMmVkMWY0ZGNlOWM3YzMxY2NjODRkYzFkN2Y5Iiwic2l6ZSI6NDIyNTEsImFyY2hpdmVTaGEyNTYiOiI4N2QzNmY5ZDkwNWE2OWRlZTUxZjgzMGU1NDEzY2U1ZGI0YmRiODJlNTJkYmUxOGU5N2JkYmFjODk1YjZlODI5IiwiYXJjaGl2ZVNpemUiOjEzMDc4fSx7InBhdGgiOiJMRUVTTUlKLnR4dCIsInVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvcGxjLXVwZGF0ZXItdjIuMi4xNS91cGRhdGUtYTk1ZmUwMTg0ODNjMzc5MDVkYWEzMmQ0NTBlMWZhYjJkZmI2NzQwMGZjNmVlMWZhYTY5YmU5OGYxMjY5ZmZkOC56aXAiLCJzaGEyNTYiOiI0NWFiYWI1YTU0YzBhNGU0NjFmMmFlMWVmNjQwNTY1Yzk2YjM3YTA3ZmFlNDg4OGIxYTM5N2ZiZGE0NzBkZTQxIiwic2l6ZSI6NjcyMTMsImFyY2hpdmVTaGEyNTYiOiJhOTVmZTAxODQ4M2MzNzkwNWRhYTMyZDQ1MGUxZmFiMmRmYjY3NDAwZmM2ZWUxZmFhNjliZTk4ZjEyNjlmZmQ4IiwiYXJjaGl2ZVNpemUiOjIxNjcwfSx7InBhdGgiOiJQTEMtVXBkYXRlci5leGUiLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vTmlja3ZEZXRoL0dyZWVuaG91c2UtZG93bmxvYWRzL3JlbGVhc2VzL2Rvd25sb2FkL3BsYy11cGRhdGVyLXYyLjIuMTUvdXBkYXRlLTAwZmM3NTc0MTkxNTk4YjFjNDJiZmZiM2RmYWE5MjIwODNhN2MzZTkzMzY2OWJlNTM2M2JlZWUzZWMwYTQwYTcuemlwIiwic2hhMjU2IjoiYmU4ZGY4ZjBiYTZjYTk0Y2UyYzY0OTg2Yzg1ZDA1YjdkMGFhN2ZlOGI4YWViNTYwY2ViOTY0MzM4MmI0ZDhiYiIsInNpemUiOjkxMDMzNiwiYXJjaGl2ZVNoYTI1NiI6IjAwZmM3NTc0MTkxNTk4YjFjNDJiZmZiM2RmYWE5MjIwODNhN2MzZTkzMzY2OWJlNTM2M2JlZWUzZWMwYTQwYTciLCJhcmNoaXZlU2l6ZSI6NDYxMjgwfV19fSwic2lnbmluZyI6eyJwdXJwb3NlIjoiZ3JlZW5ob3VzZS13aW5kb3dzLXVwZGF0ZSIsImtleUlkIjoiZ3JlZW5ob3VzZS1yZWxlYXNlLTIwMjYtMTEiLCJpc3N1ZWRVdGMiOiIyMDI2LTExLTE5VDIxOjI5OjE0LjAzMDc1MDhaIn19",
+    "signature": "KHmgjLyzJ0Kzj8jEeIB2QHE5E6Lqkydx2GvJiCZp/7E0BQ4non/T069CgOwXjnSsQUA0C2vJit0yAqQWkpDrmlDRFvW2VvKwxQi+mHIL+S1Bv36vk8W7hOGKDJIsmndYMF9DlZxv4nJprB3XFXqJetzvWf/Bc4pLgutPcmIv4CziddOl61OfDtnoWlkI9zJ0KLmlVj7cgSCcyy3qfb79cptEMRIwfkU+YHmWtgMJaRPX9pagwKKXCdmYWSzit64F5W6BjY8Yxrmbl0jgPxBHiRSspj8AMs6y2M+D73p9kv6HMRrVdvIpsgxYR3ytX1+6Fm6J/4c9RGZfma2KvkzJR3Jr53RUY3WyF2U3D34yu3+4APakYzlt33iiavDeU0jqplOJ5HYWh1gxhTVyPiwq6CRo4fAzktGorXcW0VrVSE/o/7QQFiDQlySjZBfBGfZ7KYSqmdmhpmcIE5t9VWLsrkzmn3FpV3jmZYZkpDD07MbAKM8tNNgKfTTQmTOVyzO8G5WwLO2K4eIOcLeOSkWORrO4xh7GE31sAE2HSNMTfBLbUeL+Bn7xzNnX106nwi3I6pXNlzErVUrmu+LFXbkwlDdTIDyx1UQ9FS+AmR2YOm5VYIWwlcACYyKQxxoL3+yRyJNY+ygNuFaPXGzaxrCIjF+eHz0XAJrrNZNstbtVJ8w="
+  }
 }
