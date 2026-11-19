@@ -1,6 +1,6 @@
 # Beveiliging van de Windows-apps
 
-De huidige Windows-uitgave bevat Proxy 2.2.13, Backup 1.1.14, PLC Updater 2.2.14 en VNC Windows 0.1.18. Versies van vóór Proxy 2.2.8, Backup 1.1.11, PLC Updater 2.2.12 of VNC Windows 0.1.16 hebben eenmalig de installer nodig om een fout in bestandsrechten van de eerdere updater te herstellen. Zie [de herstelstappen](UPDATE_RECOVERY.md). De beveiligingsmaatregelen hieronder blijven behouden; Android is niet opnieuw uitgebracht.
+De huidige Windows-uitgave bevat Proxy 2.2.14, Backup 1.1.14, PLC Updater 2.2.14 en VNC Windows 0.1.18. Versies van vóór Proxy 2.2.8, Backup 1.1.11, PLC Updater 2.2.12 of VNC Windows 0.1.16 hebben eenmalig de installer nodig om een fout in bestandsrechten van de eerdere updater te herstellen. Zie [de herstelstappen](UPDATE_RECOVERY.md). De beveiligingsmaatregelen hieronder blijven behouden; Android is niet opnieuw uitgebracht.
 
 Proxy gebruikt sinds 2.2.9 op ondersteunde Pro-, Education-, Enterprise- en IoT Enterprise-edities Windows-beleid voor automatische updates. Uitschakelen stopt daar ook automatische Windows-beveiligingsupdates; handmatig bijwerken blijft mogelijk.
 
@@ -9,6 +9,8 @@ Vanaf **Proxy 2.2.13** heeft Windows Home een aparte aan/uit-keuze. Uitschakelen
 De Home-bediening is geen door Microsoft ondersteund permanent updatebeleid. Windows kan de service later opnieuw inschakelen; Proxy blokkeert dit niet steeds opnieuw op de achtergrond. Een al voorbereide update of herstart kan doorgaan. De app toont de actuele toestand en weigert wijzigingen bij centraal beheer of conflicterende instellingen. Het herstelrecord is alleen schrijfbaar voor beheerders en SYSTEM. Andere services, Defender, updatetaken en herstartinstellingen worden niet aangepast. Updates van Greenhouse Proxy blijven beschikbaar. Zie [Windows Update instellen](WINDOWS_UPDATE.md).
 
 ## Wat is verbeterd?
+
+- Proxy 2.2.14 kan de taak **RimoteGreenhouseProxy** via een beheerd PowerShell-script uitvoeren. Het gebruikt de geïnstalleerde app en dezelfde uitsluiting voor gelijktijdige systeemacties. Het extra logbestand vermeldt geslaagde stappen en fouten; een fout kan volgen op gedeeltelijk toegepaste wijzigingen. De installer neemt alleen herkende eigen taken over en bewaart logbestanden. Zie [taakscript en log](PROXY_TASK_SCRIPT.md).
 
 - Alle vier apps weigeren automatische updates zonder geldige RSA-4096/SHA-256-handtekening van de afzonderlijke releasesleutel. De sleutel voor controle is opgenomen in de geinstalleerde helper. Elke download wordt bovendien op grootte en SHA-256 gecontroleerd. Ongelijke, oudere en onverwachte bestanden worden geweigerd; een vervangfout activeert herstel.
 - Proxy beperkt aangemaakte firewallregels standaard tot het lokale subnet en de netwerkprofielen Private/Domain. FTP-regels worden tot de benodigde TCP-poort beperkt en het Public-profiel staat standaard uit.
