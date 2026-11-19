@@ -4,7 +4,7 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 
 | Tool | Versie | Download |
 | --- | --- | --- |
-| Greenhouse Proxy | 2.2.19 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.19/Setup-Greenhouse-Proxy-2.2.19.exe) |
+| Greenhouse Proxy | 2.2.20 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.20/Setup-Greenhouse-Proxy-2.2.20.exe) |
 | Greenhouse Backup | 1.1.14 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.14/Setup-Greenhouse-Backup-1.1.14.exe) |
 | Greenhouse PLC Updater | 2.2.14 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.14/Setup-Greenhouse-PLC-Updater-2.2.14.exe) |
 | Greenhouse VNC | 0.1.18 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.18/Setup-Greenhouse-VNC-0.1.18.exe) |
@@ -13,6 +13,8 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 De installatieprogramma’s van de vier Greenhouse-apps plaatsen elk programma standaard in een eigen map onder `C:\Program Files\Achterbosch`. Tijdens de installatie kun je kiezen of je een snelkoppeling op het bureaublad wilt.
 
 Greenhouse VNC heeft één installatieprogramma dat automatisch de juiste uitvoering voor Windows x64 of ARM64 installeert.
+
+In Proxy **2.2.20** markeert **Poortmonitor** nieuwe en gewijzigde regels groen tot de volgende meting. Kies **Actieve regels** om die wijzigingen te volgen. Automatisch vernieuwen kan elke seconde of elke vijf seconden (standaard).
 
 In Proxy **2.2.19** staan `GreenhouseProxy.ps1` en `GreenhouseProxy_Log.txt` direct in `C:\Program Files\Rimote\GreenhouseProxy`. Bij de overstap krijgt de klassieke map de naam `GreenhouseProxy_Old`. Kies na het bijwerken **Taakplanner → Planning opslaan**. Gebruikt een gelijknamige taak in een oude taakmap de klassieke map met een afwijkende actie, dan toont de app de gevonden actie voordat je de overname bevestigt. [Taaklocaties en gebruik](docs/PROXY_TASK_SCRIPT.md).
 
