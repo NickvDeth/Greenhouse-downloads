@@ -4,7 +4,7 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 
 | Tool | Versie | Download |
 | --- | --- | --- |
-| Greenhouse Proxy | 2.2.18 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.18/Setup-Greenhouse-Proxy-2.2.18.exe) |
+| Greenhouse Proxy | 2.2.19 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.19/Setup-Greenhouse-Proxy-2.2.19.exe) |
 | Greenhouse Backup | 1.1.14 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.14/Setup-Greenhouse-Backup-1.1.14.exe) |
 | Greenhouse PLC Updater | 2.2.14 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.14/Setup-Greenhouse-PLC-Updater-2.2.14.exe) |
 | Greenhouse VNC | 0.1.18 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.18/Setup-Greenhouse-VNC-0.1.18.exe) |
@@ -14,9 +14,9 @@ De installatieprogramma’s van de vier Greenhouse-apps plaatsen elk programma s
 
 Greenhouse VNC heeft één installatieprogramma dat automatisch de juiste uitvoering voor Windows x64 of ARM64 installeert.
 
-Proxy **2.2.18** heeft een **Poortmonitor** voor lokale TCP- en UDP-poorten, bijbehorende processen en TCP-verbindingen. Gebruik de filters om bijvoorbeeld alleen lokale TCP-poorten 9501 t/m 9530 te volgen. Op dezelfde pagina staat de downloadlink voor CurrPorts van NirSoft.
+In Proxy **2.2.19** staan `GreenhouseProxy.ps1` en `GreenhouseProxy_Log.txt` direct in `C:\Program Files\Rimote\GreenhouseProxy`. Bij de overstap krijgt de klassieke map de naam `GreenhouseProxy_Old`. Kies na het bijwerken **Taakplanner → Planning opslaan**. Gebruikt een gelijknamige taak in een oude taakmap de klassieke map met een afwijkende actie, dan toont de app de gevonden actie voordat je de overname bevestigt. [Taaklocaties en gebruik](docs/PROXY_TASK_SCRIPT.md).
 
-Het actieve taakscript en het regelslog staan vanaf deze versie direct in `C:\Program Files\Rimote\GreenhouseProxy`. Kies na het bijwerken eenmaal **Taakplanner → Planning opslaan**. Bij de overstap bewaart de app de klassieke proxymap als `GreenhouseProxy_Old` en neemt hij het regelslog uit de eerdere submap over. [Taaklocaties en gebruik](docs/PROXY_TASK_SCRIPT.md).
+Sinds Proxy **2.2.18** is er een **Poortmonitor** voor lokale TCP- en UDP-poorten, bijbehorende processen en TCP-verbindingen. Gebruik de filters om bijvoorbeeld alleen lokale TCP-poorten 9501 t/m 9530 te volgen. Op dezelfde pagina staat de downloadlink voor CurrPorts van NirSoft.
 
 Sinds Proxy **2.2.17** controleert de app de hoofdmap van Taakplanner, **Microsoft** en **Microsoft → Windows**. Na controle van de nieuwe taak ruimt de app herkende oude proxytaken in de eerste twee mappen op.
 
