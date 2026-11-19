@@ -1,8 +1,8 @@
 # Proxy-taakscript en extra logbestand
 
-Vanaf Greenhouse Proxy **2.2.14** kan de taak **RimoteGreenhouseProxy** dit bestand uitvoeren:
+In Greenhouse Proxy **2.2.18** voert de taak **RimoteGreenhouseProxy** het volgende bestand uit.
 
-`C:\Program Files\Rimote\Achterbosch\GreenhouseProxy\GreenhouseProxy.ps1`
+`C:\Program Files\Rimote\GreenhouseProxy\GreenhouseProxy.ps1`
 
 De app blijft geïnstalleerd in `C:\Program Files\Achterbosch\Greenhouse Proxy`.
 
@@ -14,6 +14,10 @@ Vanaf **2.2.15** vind je de taak in Windows Taakplanner onder **Taakplannerbibli
 2. Open **Taakplanner** en kies opstarten van Windows met vertraging, of een dagelijks tijdstip.
 3. Klik op **Planning opslaan** en bevestig.
 
+Bij de overstap krijgt de klassieke map `C:\Program Files\Rimote\GreenhouseProxy` de naam `GreenhouseProxy_Old`. De oude scripts en bijbehorende bestanden blijven daarin bij elkaar. De app gebruikt vervolgens `GreenhouseProxy` voor het actieve script en neemt het bestaande regelslog uit `Rimote\Achterbosch\GreenhouseProxy` over. Een bestaand archief blijft behouden.
+
+Bestaat `GreenhouseProxy_Old` al terwijl de klassieke map nog moet worden hernoemd, dan meldt de app dat en bewaart hij beide mappen. Heeft een andere taak de klassieke map nog nodig, dan toont de app de naam van die taak. Lege eerdere app-mappen worden na de overstap opgeruimd. Bevatten beide logbestanden verschillende historie, dan houdt elk bestand zijn eigen locatie.
+
 De app bewaart de configuratie, maakt het taakscript aan en slaat de taak op onder **Microsoft → Windows**. Vanaf **2.2.17** controleert de app drie plekken op **RimoteGreenhouseProxy**: de hoofdmap van de Taakplannerbibliotheek, direct onder **Microsoft** en onder **Microsoft → Windows**. Na controle van de nieuwe taak verwijdert de app herkende oude proxyvarianten uit beide eerdere mappen, ook als ze daar tegelijk staan. De taak voert het script via Windows PowerShell uit als SYSTEM, ook wanneer niemand is aangemeld. Bij volgende uitvoeringen gebruikt het script de laatst opgeslagen machineconfiguratie en de actuele geïnstalleerde app. Er verschijnt geen appvenster.
 
 Kies na een automatische app-update eenmaal **Planning opslaan** om over te stappen op het nieuwe script. Gebruik je het installatieprogramma, dan kan dit een bestaande app-taak met behoud van de planning overzetten. Kies zelf de gewenste planning in de app als er alleen een klassieke Rimote-taak is of als de bestaande planningen verschillen. De opruiming betreft uitsluitend herkende proxytaken. Andere taken zoals **RimoteDeploy** blijven beschikbaar.
@@ -24,7 +28,7 @@ Een lopende of wachtende taak wordt niet verplaatst. Laat deze eerst afronden. B
 
 Naast het script staat:
 
-`C:\Program Files\Rimote\Achterbosch\GreenhouseProxy\GreenhouseProxy.log`
+`C:\Program Files\Rimote\GreenhouseProxy\GreenhouseProxy.log`
 
 Elke uitvoering voegt datum, tijd, aangemaakte of bijgewerkte poortkoppelingen, aangemaakte of vervangen firewallregels, resultaat en eventuele fouten toe. Voor een poortkoppeling zie je het luisteradres en de poort, plus het doeladres en de doelpoort. Een stap wordt pas als geslaagd gemeld nadat de opdracht gelukt is.
 
