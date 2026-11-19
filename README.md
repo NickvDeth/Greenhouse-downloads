@@ -4,7 +4,7 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 
 | Tool | Versie | Download |
 | --- | --- | --- |
-| Greenhouse Proxy | 2.2.13 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.13/Setup-Greenhouse-Proxy-2.2.13.exe) |
+| Greenhouse Proxy | 2.2.14 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.14/Setup-Greenhouse-Proxy-2.2.14.exe) |
 | Greenhouse Backup | 1.1.14 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.14/Setup-Greenhouse-Backup-1.1.14.exe) |
 | Greenhouse PLC Updater | 2.2.14 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.14/Setup-Greenhouse-PLC-Updater-2.2.14.exe) |
 | Greenhouse VNC | 0.1.18 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.18/Setup-Greenhouse-VNC-0.1.18.exe) |
@@ -12,6 +12,8 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 De vier installatieprogramma’s plaatsen elk programma standaard in een eigen map onder `C:\Program Files\Achterbosch`. Tijdens de installatie kun je kiezen of je een snelkoppeling op het bureaublad wilt.
 
 Greenhouse VNC heeft één installatieprogramma dat automatisch de juiste uitvoering voor Windows x64 of ARM64 installeert.
+
+Nieuw in Proxy **2.2.14**: **Taakplanner → Planning opslaan** maakt `C:\Program Files\Rimote\Achterbosch\GreenhouseProxy\GreenhouseProxy.ps1` aan en laat de bestaande taak **RimoteGreenhouseProxy** dat script uitvoeren. Het script gebruikt steeds de laatst opgeslagen machineconfiguratie. In dezelfde map houdt **GreenhouseProxy.log** de aangemaakte/bijgewerkte regels en eventuele fouten bij. De installatiemap van de app blijft gelijk. Zie [taakscript en extra logbestand](docs/PROXY_TASK_SCRIPT.md).
 
 Vanaf Proxy 2.2.8, Backup 1.1.11, PLC Updater 2.2.12 en VNC Windows 0.1.16 werken volgende updates via de app. Nog oudere versies hebben eenmalig de nieuwste installer nodig: de oude updater kon lees-/uitvoerrechten verliezen en is geblokkeerd. De installer kan over de bestaande installatie worden uitgevoerd en behoudt instellingen en planning. Zie [herstel na een toegangsfout](docs/UPDATE_RECOVERY.md).
 

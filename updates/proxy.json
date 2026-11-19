@@ -3,22 +3,22 @@
     "appId":  "greenhouse-proxy",
     "platforms":  {
                       "windows-anycpu":  {
-                                             "version":  "2.2.13",
-                                             "downloadUrl":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.13/Setup-Greenhouse-Proxy-2.2.13.exe",
-                                             "sha256":  "f43201dac39d68065d2fb15f72c45874e9c916c33c0434c13952fa4a9774e309",
-                                             "bytes":  2405615,
+                                             "version":  "2.2.14",
+                                             "downloadUrl":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.14/Setup-Greenhouse-Proxy-2.2.14.exe",
+                                             "sha256":  "0f912720ec415b8b9db092573ea667781c7901a380987537ede16d7b1c9da84e",
+                                             "bytes":  2409315,
                                              "files":  [
                                                            {
                                                                "path":  "GreenhouseProxy.exe",
-                                                               "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.13/update-8c1162e6c5598bdc1affecc0a567fd7ae2c3574a7ed5d1afe6cf231fb5e60fd5.zip",
-                                                               "sha256":  "11ec0e49a0d5ed6179e9d318a8311d7242481082fc760ce62bc10aa084311170",
-                                                               "size":  490496,
-                                                               "archiveSha256":  "8c1162e6c5598bdc1affecc0a567fd7ae2c3574a7ed5d1afe6cf231fb5e60fd5",
-                                                               "archiveSize":  300208
+                                                               "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.14/update-e9fa698b01df8d86169830349563a0eee530508a0ab35bc9de5a60f99a7b9341.zip",
+                                                               "sha256":  "13b85ad10a946a001c1110e665cda8278bfaaa947406141a99a30a076adb8976",
+                                                               "size":  505856,
+                                                               "archiveSha256":  "e9fa698b01df8d86169830349563a0eee530508a0ab35bc9de5a60f99a7b9341",
+                                                               "archiveSize":  304914
                                                            },
                                                            {
                                                                "path":  "GreenhouseUpdate.ps1",
-                                                               "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.13/update-e142816c79636d8cb26cda1ac007613228f219c243b4091b3148749685775c42.zip",
+                                                               "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.14/update-e142816c79636d8cb26cda1ac007613228f219c243b4091b3148749685775c42.zip",
                                                                "sha256":  "5899bd5d94a4153d950ab9716c09b35882ed9639adf3a1a9830ddc546ac53f9e",
                                                                "size":  39479,
                                                                "archiveSha256":  "e142816c79636d8cb26cda1ac007613228f219c243b4091b3148749685775c42",
@@ -26,11 +26,11 @@
                                                            },
                                                            {
                                                                "path":  "Update-ScheduledTask.ps1",
-                                                               "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.13/update-b466ab1077973554353928bcbb00937a74019391a390788aaa0e497c905becb0.zip",
-                                                               "sha256":  "f0c9f9816d63391457048451ac4a71f3cdf129ebace4be2a460b5fb9b009d903",
-                                                               "size":  1140,
-                                                               "archiveSha256":  "b466ab1077973554353928bcbb00937a74019391a390788aaa0e497c905becb0",
-                                                               "archiveSize":  645
+                                                               "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.14/update-55c2d68f19f803279320e917c66384a34cee6841c164b86f5780d3a55b8a29e2.zip",
+                                                               "sha256":  "964c986170a13566b1be5ca4a7c50e8981228ade2ccb5f0cda2e087613abee9b",
+                                                               "size":  3438,
+                                                               "archiveSha256":  "55c2d68f19f803279320e917c66384a34cee6841c164b86f5780d3a55b8a29e2",
+                                                               "archiveSize":  1537
                                                            }
                                                        ]
                                          }
@@ -38,7 +38,7 @@
     "signedManifest":  {
                            "algorithm":  "RS256",
                            "keyId":  "greenhouse-release-2026-11",
-                           "payload":  "eyJzY2hlbWFWZXJzaW9uIjoyLCJhcHBJZCI6ImdyZWVuaG91c2UtcHJveHkiLCJwbGF0Zm9ybXMiOnsid2luZG93cy1hbnljcHUiOnsidmVyc2lvbiI6IjIuMi4xMyIsImRvd25sb2FkVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC9wcm94eS12Mi4yLjEzL1NldHVwLUdyZWVuaG91c2UtUHJveHktMi4yLjEzLmV4ZSIsInNoYTI1NiI6ImY0MzIwMWRhYzM5ZDY4MDY1ZDJmYjE1ZjcyYzQ1ODc0ZTljOTE2YzMzYzA0MzRjMTM5NTJmYTRhOTc3NGUzMDkiLCJieXRlcyI6MjQwNTYxNSwiZmlsZXMiOlt7InBhdGgiOiJHcmVlbmhvdXNlUHJveHkuZXhlIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC9wcm94eS12Mi4yLjEzL3VwZGF0ZS04YzExNjJlNmM1NTk4YmRjMWFmZmVjYzBhNTY3ZmQ3YWUyYzM1NzRhN2VkNWQxYWZlNmNmMjMxZmI1ZTYwZmQ1LnppcCIsInNoYTI1NiI6IjExZWMwZTQ5YTBkNWVkNjE3OWU5ZDMxOGE4MzExZDcyNDI0ODEwODJmYzc2MGNlNjJiYzEwYWEwODQzMTExNzAiLCJzaXplIjo0OTA0OTYsImFyY2hpdmVTaGEyNTYiOiI4YzExNjJlNmM1NTk4YmRjMWFmZmVjYzBhNTY3ZmQ3YWUyYzM1NzRhN2VkNWQxYWZlNmNmMjMxZmI1ZTYwZmQ1IiwiYXJjaGl2ZVNpemUiOjMwMDIwOH0seyJwYXRoIjoiR3JlZW5ob3VzZVVwZGF0ZS5wczEiLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vTmlja3ZEZXRoL0dyZWVuaG91c2UtZG93bmxvYWRzL3JlbGVhc2VzL2Rvd25sb2FkL3Byb3h5LXYyLjIuMTMvdXBkYXRlLWUxNDI4MTZjNzk2MzZkOGNiMjZjZGExYWMwMDc2MTMyMjhmMjE5YzI0M2I0MDkxYjMxNDg3NDk2ODU3NzVjNDIuemlwIiwic2hhMjU2IjoiNTg5OWJkNWQ5NGE0MTUzZDk1MGFiOTcxNmMwOWIzNTg4MmVkOTYzOWFkZjNhMWE5ODMwZGRjNTQ2YWM1M2Y5ZSIsInNpemUiOjM5NDc5LCJhcmNoaXZlU2hhMjU2IjoiZTE0MjgxNmM3OTYzNmQ4Y2IyNmNkYTFhYzAwNzYxMzIyOGYyMTljMjQzYjQwOTFiMzE0ODc0OTY4NTc3NWM0MiIsImFyY2hpdmVTaXplIjoxMjMyNX0seyJwYXRoIjoiVXBkYXRlLVNjaGVkdWxlZFRhc2sucHMxIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC9wcm94eS12Mi4yLjEzL3VwZGF0ZS1iNDY2YWIxMDc3OTczNTU0MzUzOTI4YmNiYjAwOTM3YTc0MDE5MzkxYTM5MDc4OGFhYTBlNDk3YzkwNWJlY2IwLnppcCIsInNoYTI1NiI6ImYwYzlmOTgxNmQ2MzM5MTQ1NzA0ODQ1MWFjNGE3MWYzY2RmMTI5ZWJhY2U0YmUyYTQ2MGI1ZmI5YjAwOWQ5MDMiLCJzaXplIjoxMTQwLCJhcmNoaXZlU2hhMjU2IjoiYjQ2NmFiMTA3Nzk3MzU1NDM1MzkyOGJjYmIwMDkzN2E3NDAxOTM5MWEzOTA3ODhhYWEwZTQ5N2M5MDViZWNiMCIsImFyY2hpdmVTaXplIjo2NDV9XX19LCJzaWduaW5nIjp7InB1cnBvc2UiOiJncmVlbmhvdXNlLXdpbmRvd3MtdXBkYXRlIiwia2V5SWQiOiJncmVlbmhvdXNlLXJlbGVhc2UtMjAyNi0xMSIsImlzc3VlZFV0YyI6IjIwMjYtMTEtMThUMTA6MTM6MDkuNTMzNjY5MloifX0=",
-                           "signature":  "BcjbUEI/V6Es5izqOaQ7WvERCAyyhHZgOm3GovpN2nn7S1Bblv3JTsTCnCnb5EL78mPB37/Gsd0rwf/37L5OukhPW1jjEZJDwbA69gyBm9WzbcqZkJfey6+EIQL8pkrcaLuPUSDUH+zPhozoYne+P0maOFszF5nv5gfJRzgXVlIb3MjoiG6S0FdB5YejuetqeMXKOBkWUqLZlt5bayJUEg0tNFm8EtApqNfLxq4KLat97Jt6EPJokJ2AtBkYbKasFQ2Wz70i5wqMV8VpdyzuKA5Y6FiyGV35CCk44Y2cJoxroWTLJun4iL4W9dkqFRqIGksgJ76GooyeXkfCdKBBuC2wO3k7uLbzPxYqWaEt11+I6LnFmhVPA3itoGFQG4dspAsf8QWyXWTVhN5G2JKNnIazwkylBHkOa9c5PfdEQAQhmPxAKs9yJAEONe6tsR1SaKOkNVbGy1MNIFVsphd/UC6ZFLbutqkCvt5WWV78hxqGoK+53Ca++/4/dcdgz1Vgpwp9/ZVBcfV2fm8GWXRO4MObkYUWYUlzYANspqz0g+dM4zIH9gE8c5Ad7lmxNRImY+rcQSXmNgpWs++dEuWxX+PWVUYOy03r64v7fc++lx3WVUYe0f47dyrIc5Di0kMtdOR2UOQg8nd+3uYftTuc8BpHBK0A1ZthNYUvXqnv8Ls="
+                           "payload":  "eyJzY2hlbWFWZXJzaW9uIjoyLCJhcHBJZCI6ImdyZWVuaG91c2UtcHJveHkiLCJwbGF0Zm9ybXMiOnsid2luZG93cy1hbnljcHUiOnsidmVyc2lvbiI6IjIuMi4xNCIsImRvd25sb2FkVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC9wcm94eS12Mi4yLjE0L1NldHVwLUdyZWVuaG91c2UtUHJveHktMi4yLjE0LmV4ZSIsInNoYTI1NiI6IjBmOTEyNzIwZWM0MTViOGI5ZGIwOTI1NzNlYTY2Nzc4MWM3OTAxYTM4MDk4NzUzN2VkZTE2ZDdiMWM5ZGE4NGUiLCJieXRlcyI6MjQwOTMxNSwiZmlsZXMiOlt7InBhdGgiOiJHcmVlbmhvdXNlUHJveHkuZXhlIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC9wcm94eS12Mi4yLjE0L3VwZGF0ZS1lOWZhNjk4YjAxZGY4ZDg2MTY5ODMwMzQ5NTYzYTBlZWU1MzA1MDhhMGFiMzViYzlkZTVhNjBmOTlhN2I5MzQxLnppcCIsInNoYTI1NiI6IjEzYjg1YWQxMGE5NDZhMDAxYzExMTBlNjY1Y2RhODI3OGJmYWFhOTQ3NDA2MTQxYTk5YTMwYTA3NmFkYjg5NzYiLCJzaXplIjo1MDU4NTYsImFyY2hpdmVTaGEyNTYiOiJlOWZhNjk4YjAxZGY4ZDg2MTY5ODMwMzQ5NTYzYTBlZWU1MzA1MDhhMGFiMzViYzlkZTVhNjBmOTlhN2I5MzQxIiwiYXJjaGl2ZVNpemUiOjMwNDkxNH0seyJwYXRoIjoiR3JlZW5ob3VzZVVwZGF0ZS5wczEiLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vTmlja3ZEZXRoL0dyZWVuaG91c2UtZG93bmxvYWRzL3JlbGVhc2VzL2Rvd25sb2FkL3Byb3h5LXYyLjIuMTQvdXBkYXRlLWUxNDI4MTZjNzk2MzZkOGNiMjZjZGExYWMwMDc2MTMyMjhmMjE5YzI0M2I0MDkxYjMxNDg3NDk2ODU3NzVjNDIuemlwIiwic2hhMjU2IjoiNTg5OWJkNWQ5NGE0MTUzZDk1MGFiOTcxNmMwOWIzNTg4MmVkOTYzOWFkZjNhMWE5ODMwZGRjNTQ2YWM1M2Y5ZSIsInNpemUiOjM5NDc5LCJhcmNoaXZlU2hhMjU2IjoiZTE0MjgxNmM3OTYzNmQ4Y2IyNmNkYTFhYzAwNzYxMzIyOGYyMTljMjQzYjQwOTFiMzE0ODc0OTY4NTc3NWM0MiIsImFyY2hpdmVTaXplIjoxMjMyNX0seyJwYXRoIjoiVXBkYXRlLVNjaGVkdWxlZFRhc2sucHMxIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC9wcm94eS12Mi4yLjE0L3VwZGF0ZS01NWMyZDY4ZjE5ZjgwMzI3OTMyMGU5MTdjNjYzODRhMzRjZWU2ODQxYzE2NGI4NmY1NzgwZDNhNTViOGEyOWUyLnppcCIsInNoYTI1NiI6Ijk2NGM5ODYxNzBhMTM1NjZiMWJlNWNhNGE3YzUwZTg5ODEyMjhhZGUyY2NiNWYwY2RhMmUwODc2MTNhYmVlOWIiLCJzaXplIjozNDM4LCJhcmNoaXZlU2hhMjU2IjoiNTVjMmQ2OGYxOWY4MDMyNzkzMjBlOTE3YzY2Mzg0YTM0Y2VlNjg0MWMxNjRiODZmNTc4MGQzYTU1YjhhMjllMiIsImFyY2hpdmVTaXplIjoxNTM3fV19fSwic2lnbmluZyI6eyJwdXJwb3NlIjoiZ3JlZW5ob3VzZS13aW5kb3dzLXVwZGF0ZSIsImtleUlkIjoiZ3JlZW5ob3VzZS1yZWxlYXNlLTIwMjYtMTEiLCJpc3N1ZWRVdGMiOiIyMDI2LTExLTE5VDA3OjI4OjM4LjM1Mjg2NjlaIn19",
+                           "signature":  "XJD2e1DvgT+LYUogGySY+iZ+qzoGXeM4MgybuDDcDSKLUXP2WJyM3c5mHnCNhfGk0FaNMC7NrUX9owZ1g7pSapj/ePSVvrje4p8EOhKPGGXrFU1xr5ie5dwqPUQZWCKZfG0cpc+rfBT42+beTq1fdfcU/4jWgi+cYtkROuSnNF5fYvJAjgCFkPjyX4yI2yve6X0f66qYswRTYtBywpxUbXfRPsIsI0GlgW6PuxBrdMX546X3q2aMbWVW34D/ZbcyhWS+opWpbPJwVvqbwRv/OUaRw9IA8tyxsgVh18oY82ieaQ9L3oVuHOMg9e0acahsblOTnFL7LOucec3mZ8HxZo8UsUWvEjtHc3QN0eclPRup2uXhcobqCxfz+0Pp2cECQFT2r4gWAzzBWKCcbofrvhavjJVMyruHafYu8wQIJ4+asPnb+KUgJvLTzrSxoJLi6AYSVXH9ljmGwgkKF+9Gh5Z5Y7p1im80IUtJoo2Xy5LrSOKBaFVtToTOE8ar37K+zvfoG/DAHdVfLXrspSKAcKSzhK+FZXENnzZaU1okxxm/Mn4PD9S3OOFCnt/lHZpLTqZfK+RCLXvqlXFFSw6zhB5yvh74I1ql8pBAyPrepyrDKW0r4vieQN3tPSdruklh0xmnq06bTOMViwQ7Cfplma0IeXyCG9GEVLzN/eBSDzE="
                        }
 }
