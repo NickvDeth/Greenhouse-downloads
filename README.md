@@ -7,12 +7,12 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 | Greenhouse Proxy | 2.2.21 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.21/Setup-Greenhouse-Proxy-2.2.21.exe) |
 | Greenhouse Backup | 1.1.15 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.15/Setup-Greenhouse-Backup-1.1.15.exe) |
 | Greenhouse PLC Updater | 2.2.15 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.15/Setup-Greenhouse-PLC-Updater-2.2.15.exe) |
-| Greenhouse VNC | 0.1.20 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.20/Setup-Greenhouse-VNC-0.1.20.exe) |
+| Greenhouse VNC | 0.1.21 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.21/Setup-Greenhouse-VNC-0.1.21.exe) |
 | Achterbosch IP Tool | 1.4.2 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/ip-tool-v1.4.2/AchterboschIPTool-win-Setup.exe) |
 
 De installatieprogramma’s van de vier Greenhouse-apps plaatsen elk programma standaard in een eigen map onder `C:\Program Files\Achterbosch`. Tijdens de installatie kun je kiezen of je een snelkoppeling op het bureaublad wilt.
 
-Greenhouse VNC 0.1.20 opent met je opgeslagen PLC-adressen. Dubbelklik op een adres om het PLC-scherm in een apart VNC-venster te openen. Het installatieprogramma kiest automatisch de juiste uitvoering voor Windows x64 of ARM64.
+Dubbelklik in de adreslijst van Greenhouse VNC op een PLC om het scherm in een apart venster te openen. In versie 0.1.21 heeft de compacte werkbalk aparte knoppen voor **Passend in venster** en **100%**. Houd de muis op een pictogram voor uitleg. Het installatieprogramma kiest automatisch de juiste uitvoering voor Windows x64 of ARM64.
 
 In Proxy **2.2.20** markeert **Poortmonitor** nieuwe en gewijzigde regels groen tot de volgende meting. Kies **Actieve regels** om die wijzigingen te volgen. Automatisch vernieuwen kan elke seconde of elke vijf seconden (standaard).
 
