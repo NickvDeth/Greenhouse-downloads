@@ -3,22 +3,22 @@
   "appId": "greenhouse-vnc",
   "platforms": {
     "windows-x64": {
-      "version": "0.1.20",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.20/Setup-Greenhouse-VNC-0.1.20.exe",
-      "sha256": "dcbff377cc5169bd67e543dd4026dbdf0e939abbd07fef9934e644f5921e007f",
-      "bytes": 90074749,
+      "version": "0.1.21",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.21/Setup-Greenhouse-VNC-0.1.21.exe",
+      "sha256": "f632696c0032ff826cdfe6fef9eb2e638543866b4e4342a84e0d7312c2334f98",
+      "bytes": 90073478,
       "files": [
         {
           "path": "Achterbosch.PlcVnc.exe",
-          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.20/update-8dd501bf3b4af5a731bfd6ee42e9caa44b8194d7df0fa05daef5332d79b7afcd.zip",
-          "sha256": "8ee8c9c2b3f383e2b317795794a60d7aa5b613cd5e8a30b8c0feb67fc0d1730b",
-          "size": 52102793,
-          "archiveSha256": "8dd501bf3b4af5a731bfd6ee42e9caa44b8194d7df0fa05daef5332d79b7afcd",
-          "archiveSize": 46656053
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.21/update-f208deb646e3341ba8d5430568c5ee38f8d45a385f28af9aaa4dd64674ab0332.zip",
+          "sha256": "9ad46058c33c8335540327e012af9a949772c6887ad662ca968f10788e46c690",
+          "size": 52103594,
+          "archiveSha256": "f208deb646e3341ba8d5430568c5ee38f8d45a385f28af9aaa4dd64674ab0332",
+          "archiveSize": 46656904
         },
         {
           "path": "GreenhouseUpdate.ps1",
-          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.20/update-60f1a659575f126535367a3196e398266abafaf1d3663bb41f400268149af311.zip",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.21/update-60f1a659575f126535367a3196e398266abafaf1d3663bb41f400268149af311.zip",
           "sha256": "41cae079c71aa2a48e6df4850176971c48ff75c0c323198f06b7f697b49af794",
           "size": 41602,
           "archiveSha256": "60f1a659575f126535367a3196e398266abafaf1d3663bb41f400268149af311",
@@ -27,22 +27,22 @@
       ]
     },
     "windows-arm64": {
-      "version": "0.1.20",
-      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.20/Setup-Greenhouse-VNC-0.1.20.exe",
-      "sha256": "dcbff377cc5169bd67e543dd4026dbdf0e939abbd07fef9934e644f5921e007f",
-      "bytes": 90074749,
+      "version": "0.1.21",
+      "downloadUrl": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.21/Setup-Greenhouse-VNC-0.1.21.exe",
+      "sha256": "f632696c0032ff826cdfe6fef9eb2e638543866b4e4342a84e0d7312c2334f98",
+      "bytes": 90073478,
       "files": [
         {
           "path": "Achterbosch.PlcVnc.exe",
-          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.20/update-2ac14db978e8126105252bacc4b3c461b360c6ae11dca041ff129e2bc037f26a.zip",
-          "sha256": "fe4a722a4cf7f8480da5678929e78576a361d35abb31309480d49b5ad62335ab",
-          "size": 50846759,
-          "archiveSha256": "2ac14db978e8126105252bacc4b3c461b360c6ae11dca041ff129e2bc037f26a",
-          "archiveSize": 44733945
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.21/update-98839ac080608fffd79fb9911c61e9b57edccf92f1f7649e791bfd4b44c0e1d9.zip",
+          "sha256": "debad474b4c0cc1f0ac4a38015ea35be65ae94f32787c0cecd0c2cfa4c592d66",
+          "size": 50847562,
+          "archiveSha256": "98839ac080608fffd79fb9911c61e9b57edccf92f1f7649e791bfd4b44c0e1d9",
+          "archiveSize": 44734689
         },
         {
           "path": "GreenhouseUpdate.ps1",
-          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.20/update-60f1a659575f126535367a3196e398266abafaf1d3663bb41f400268149af311.zip",
+          "url": "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.21/update-60f1a659575f126535367a3196e398266abafaf1d3663bb41f400268149af311.zip",
           "sha256": "41cae079c71aa2a48e6df4850176971c48ff75c0c323198f06b7f697b49af794",
           "size": 41602,
           "archiveSha256": "60f1a659575f126535367a3196e398266abafaf1d3663bb41f400268149af311",
@@ -54,7 +54,7 @@
   "signedManifest": {
     "algorithm": "RS256",
     "keyId": "greenhouse-release-2026-11",
-    "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJhcHBJZCI6ImdyZWVuaG91c2Utdm5jIiwicGxhdGZvcm1zIjp7IndpbmRvd3MteDY0Ijp7InZlcnNpb24iOiIwLjEuMjAiLCJkb3dubG9hZFVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvdm5jLXdpbmRvd3MtdjAuMS4yMC9TZXR1cC1HcmVlbmhvdXNlLVZOQy0wLjEuMjAuZXhlIiwic2hhMjU2IjoiZGNiZmYzNzdjYzUxNjliZDY3ZTU0M2RkNDAyNmRiZGYwZTkzOWFiYmQwN2ZlZjk5MzRlNjQ0ZjU5MjFlMDA3ZiIsImJ5dGVzIjo5MDA3NDc0OSwiZmlsZXMiOlt7InBhdGgiOiJBY2h0ZXJib3NjaC5QbGNWbmMuZXhlIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC92bmMtd2luZG93cy12MC4xLjIwL3VwZGF0ZS04ZGQ1MDFiZjNiNGFmNWE3MzFiZmQ2ZWU0MmU5Y2FhNDRiODE5NGQ3ZGYwZmEwNWRhZWY1MzMyZDc5YjdhZmNkLnppcCIsInNoYTI1NiI6IjhlZThjOWMyYjNmMzgzZTJiMzE3Nzk1Nzk0YTYwZDdhYTViNjEzY2Q1ZThhMzBiOGMwZmViNjdmYzBkMTczMGIiLCJzaXplIjo1MjEwMjc5MywiYXJjaGl2ZVNoYTI1NiI6IjhkZDUwMWJmM2I0YWY1YTczMWJmZDZlZTQyZTljYWE0NGI4MTk0ZDdkZjBmYTA1ZGFlZjUzMzJkNzliN2FmY2QiLCJhcmNoaXZlU2l6ZSI6NDY2NTYwNTN9LHsicGF0aCI6IkdyZWVuaG91c2VVcGRhdGUucHMxIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC92bmMtd2luZG93cy12MC4xLjIwL3VwZGF0ZS02MGYxYTY1OTU3NWYxMjY1MzUzNjdhMzE5NmUzOTgyNjZhYmFmYWYxZDM2NjNiYjQxZjQwMDI2ODE0OWFmMzExLnppcCIsInNoYTI1NiI6IjQxY2FlMDc5YzcxYWEyYTQ4ZTZkZjQ4NTAxNzY5NzFjNDhmZjc1YzBjMzIzMTk4ZjA2YjdmNjk3YjQ5YWY3OTQiLCJzaXplIjo0MTYwMiwiYXJjaGl2ZVNoYTI1NiI6IjYwZjFhNjU5NTc1ZjEyNjUzNTM2N2EzMTk2ZTM5ODI2NmFiYWZhZjFkMzY2M2JiNDFmNDAwMjY4MTQ5YWYzMTEiLCJhcmNoaXZlU2l6ZSI6MTMwMzV9XX0sIndpbmRvd3MtYXJtNjQiOnsidmVyc2lvbiI6IjAuMS4yMCIsImRvd25sb2FkVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC92bmMtd2luZG93cy12MC4xLjIwL1NldHVwLUdyZWVuaG91c2UtVk5DLTAuMS4yMC5leGUiLCJzaGEyNTYiOiJkY2JmZjM3N2NjNTE2OWJkNjdlNTQzZGQ0MDI2ZGJkZjBlOTM5YWJiZDA3ZmVmOTkzNGU2NDRmNTkyMWUwMDdmIiwiYnl0ZXMiOjkwMDc0NzQ5LCJmaWxlcyI6W3sicGF0aCI6IkFjaHRlcmJvc2NoLlBsY1ZuYy5leGUiLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vTmlja3ZEZXRoL0dyZWVuaG91c2UtZG93bmxvYWRzL3JlbGVhc2VzL2Rvd25sb2FkL3ZuYy13aW5kb3dzLXYwLjEuMjAvdXBkYXRlLTJhYzE0ZGI5NzhlODEyNjEwNTI1MmJhY2M0YjNjNDYxYjM2MGM2YWUxMWRjYTA0MWZmMTI5ZTJiYzAzN2YyNmEuemlwIiwic2hhMjU2IjoiZmU0YTcyMmE0Y2Y3Zjg0ODBkYTU2Nzg5MjllNzg1NzZhMzYxZDM1YWJiMzEzMDk0ODBkNDliNWFkNjIzMzVhYiIsInNpemUiOjUwODQ2NzU5LCJhcmNoaXZlU2hhMjU2IjoiMmFjMTRkYjk3OGU4MTI2MTA1MjUyYmFjYzRiM2M0NjFiMzYwYzZhZTExZGNhMDQxZmYxMjllMmJjMDM3ZjI2YSIsImFyY2hpdmVTaXplIjo0NDczMzk0NX0seyJwYXRoIjoiR3JlZW5ob3VzZVVwZGF0ZS5wczEiLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vTmlja3ZEZXRoL0dyZWVuaG91c2UtZG93bmxvYWRzL3JlbGVhc2VzL2Rvd25sb2FkL3ZuYy13aW5kb3dzLXYwLjEuMjAvdXBkYXRlLTYwZjFhNjU5NTc1ZjEyNjUzNTM2N2EzMTk2ZTM5ODI2NmFiYWZhZjFkMzY2M2JiNDFmNDAwMjY4MTQ5YWYzMTEuemlwIiwic2hhMjU2IjoiNDFjYWUwNzljNzFhYTJhNDhlNmRmNDg1MDE3Njk3MWM0OGZmNzVjMGMzMjMxOThmMDZiN2Y2OTdiNDlhZjc5NCIsInNpemUiOjQxNjAyLCJhcmNoaXZlU2hhMjU2IjoiNjBmMWE2NTk1NzVmMTI2NTM1MzY3YTMxOTZlMzk4MjY2YWJhZmFmMWQzNjYzYmI0MWY0MDAyNjgxNDlhZjMxMSIsImFyY2hpdmVTaXplIjoxMzAzNX1dfX0sInNpZ25pbmciOnsicHVycG9zZSI6ImdyZWVuaG91c2Utd2luZG93cy11cGRhdGUiLCJrZXlJZCI6ImdyZWVuaG91c2UtcmVsZWFzZS0yMDI2LTExIiwiaXNzdWVkVXRjIjoiMjAyNi0xMS0xOVQyMjoyMDoyOS43MTU2NzY5WiJ9fQ==",
-    "signature": "eVSzk/oIgZmSPNGmFRDQrA2ByUW9DQke7D8bYCB6Tl058pxJCEIvasWQd4X6zACoKhvOxpEHhsP6wdEVGCpmN42kyhWshPqFDbwqE9198+mLIq2xSvnCOPEyp1k7Kux2qhxtCat8JGyjS/xgmFiVkm4qZukcRicAq1kP+ma7Ppllnko9rtdDfha/jGnptp3WOhEngf25XlYz/QUBSsvSrcHHFR2wA4vcBEOzKjGgOx+q90ndujCjdg4zRZvQbQvjAo9FnGLbXaAIDGCQGQ/G51DeCqRl9SZTaRmwM1x63wyDHFIGljUP0sp4LWxAtm/tV4dTOTzJGXD3vIEVU0gLjnjBFrp/4VuEvtMfpRrmMtKuAjFlCzngUhXVQXZgV1YrQk5T4Wd8NK8ocRdeNGhgR4urCQPlURaAYOSydc8XM81n7P4HzgzO4dGUSOYs4fTdGYms/j9g7Z55WiWAsMz9gD1hokpuSGpKLsgr6kSW6nTWrIGbyhRONRAYqFsa4U5tQhY4ibs6EOP+lzC04s+pBatV+MF5wa5/Keu+6IK4gF6XrtUtyap2l6AsponRzQogKJvHGNHYeZeYfzVLe7hmgusD+oBK6oAAJjdfVEwEVh9yE06YLoGfy42X/gnIbPQTpO2uWTR/Wtw89I+RiyCjs/Nt25jt6/Hc6hKJmiF8PrI="
+    "payload": "eyJzY2hlbWFWZXJzaW9uIjoyLCJhcHBJZCI6ImdyZWVuaG91c2Utdm5jIiwicGxhdGZvcm1zIjp7IndpbmRvd3MteDY0Ijp7InZlcnNpb24iOiIwLjEuMjEiLCJkb3dubG9hZFVybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OaWNrdkRldGgvR3JlZW5ob3VzZS1kb3dubG9hZHMvcmVsZWFzZXMvZG93bmxvYWQvdm5jLXdpbmRvd3MtdjAuMS4yMS9TZXR1cC1HcmVlbmhvdXNlLVZOQy0wLjEuMjEuZXhlIiwic2hhMjU2IjoiZjYzMjY5NmMwMDMyZmY4MjZjZGZlNmZlZjllYjJlNjM4NTQzODY2YjRlNDM0MmE4NGUwZDczMTJjMjMzNGY5OCIsImJ5dGVzIjo5MDA3MzQ3OCwiZmlsZXMiOlt7InBhdGgiOiJBY2h0ZXJib3NjaC5QbGNWbmMuZXhlIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC92bmMtd2luZG93cy12MC4xLjIxL3VwZGF0ZS1mMjA4ZGViNjQ2ZTMzNDFiYThkNTQzMDU2OGM1ZWUzOGY4ZDQ1YTM4NWYyOGFmOWFhYTRkZDY0Njc0YWIwMzMyLnppcCIsInNoYTI1NiI6IjlhZDQ2MDU4YzMzYzgzMzU1NDAzMjdlMDEyYWY5YTk0OTc3MmM2ODg3YWQ2NjJjYTk2OGYxMDc4OGU0NmM2OTAiLCJzaXplIjo1MjEwMzU5NCwiYXJjaGl2ZVNoYTI1NiI6ImYyMDhkZWI2NDZlMzM0MWJhOGQ1NDMwNTY4YzVlZTM4ZjhkNDVhMzg1ZjI4YWY5YWFhNGRkNjQ2NzRhYjAzMzIiLCJhcmNoaXZlU2l6ZSI6NDY2NTY5MDR9LHsicGF0aCI6IkdyZWVuaG91c2VVcGRhdGUucHMxIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC92bmMtd2luZG93cy12MC4xLjIxL3VwZGF0ZS02MGYxYTY1OTU3NWYxMjY1MzUzNjdhMzE5NmUzOTgyNjZhYmFmYWYxZDM2NjNiYjQxZjQwMDI2ODE0OWFmMzExLnppcCIsInNoYTI1NiI6IjQxY2FlMDc5YzcxYWEyYTQ4ZTZkZjQ4NTAxNzY5NzFjNDhmZjc1YzBjMzIzMTk4ZjA2YjdmNjk3YjQ5YWY3OTQiLCJzaXplIjo0MTYwMiwiYXJjaGl2ZVNoYTI1NiI6IjYwZjFhNjU5NTc1ZjEyNjUzNTM2N2EzMTk2ZTM5ODI2NmFiYWZhZjFkMzY2M2JiNDFmNDAwMjY4MTQ5YWYzMTEiLCJhcmNoaXZlU2l6ZSI6MTMwMzV9XX0sIndpbmRvd3MtYXJtNjQiOnsidmVyc2lvbiI6IjAuMS4yMSIsImRvd25sb2FkVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL05pY2t2RGV0aC9HcmVlbmhvdXNlLWRvd25sb2Fkcy9yZWxlYXNlcy9kb3dubG9hZC92bmMtd2luZG93cy12MC4xLjIxL1NldHVwLUdyZWVuaG91c2UtVk5DLTAuMS4yMS5leGUiLCJzaGEyNTYiOiJmNjMyNjk2YzAwMzJmZjgyNmNkZmU2ZmVmOWViMmU2Mzg1NDM4NjZiNGU0MzQyYTg0ZTBkNzMxMmMyMzM0Zjk4IiwiYnl0ZXMiOjkwMDczNDc4LCJmaWxlcyI6W3sicGF0aCI6IkFjaHRlcmJvc2NoLlBsY1ZuYy5leGUiLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vTmlja3ZEZXRoL0dyZWVuaG91c2UtZG93bmxvYWRzL3JlbGVhc2VzL2Rvd25sb2FkL3ZuYy13aW5kb3dzLXYwLjEuMjEvdXBkYXRlLTk4ODM5YWMwODA2MDhmZmZkNzlmYjk5MTFjNjFlOWI1N2VkY2NmOTJmMWY3NjQ5ZTc5MWJmZDRiNDRjMGUxZDkuemlwIiwic2hhMjU2IjoiZGViYWQ0NzRiNGMwY2MxZjBhYzRhMzgwMTVlYTM1YmU2NWFlOTRmMzI3ODdjMGNlY2QwYzJjZmE0YzU5MmQ2NiIsInNpemUiOjUwODQ3NTYyLCJhcmNoaXZlU2hhMjU2IjoiOTg4MzlhYzA4MDYwOGZmZmQ3OWZiOTkxMWM2MWU5YjU3ZWRjY2Y5MmYxZjc2NDllNzkxYmZkNGI0NGMwZTFkOSIsImFyY2hpdmVTaXplIjo0NDczNDY4OX0seyJwYXRoIjoiR3JlZW5ob3VzZVVwZGF0ZS5wczEiLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vTmlja3ZEZXRoL0dyZWVuaG91c2UtZG93bmxvYWRzL3JlbGVhc2VzL2Rvd25sb2FkL3ZuYy13aW5kb3dzLXYwLjEuMjEvdXBkYXRlLTYwZjFhNjU5NTc1ZjEyNjUzNTM2N2EzMTk2ZTM5ODI2NmFiYWZhZjFkMzY2M2JiNDFmNDAwMjY4MTQ5YWYzMTEuemlwIiwic2hhMjU2IjoiNDFjYWUwNzljNzFhYTJhNDhlNmRmNDg1MDE3Njk3MWM0OGZmNzVjMGMzMjMxOThmMDZiN2Y2OTdiNDlhZjc5NCIsInNpemUiOjQxNjAyLCJhcmNoaXZlU2hhMjU2IjoiNjBmMWE2NTk1NzVmMTI2NTM1MzY3YTMxOTZlMzk4MjY2YWJhZmFmMWQzNjYzYmI0MWY0MDAyNjgxNDlhZjMxMSIsImFyY2hpdmVTaXplIjoxMzAzNX1dfX0sInNpZ25pbmciOnsicHVycG9zZSI6ImdyZWVuaG91c2Utd2luZG93cy11cGRhdGUiLCJrZXlJZCI6ImdyZWVuaG91c2UtcmVsZWFzZS0yMDI2LTExIiwiaXNzdWVkVXRjIjoiMjAyNi0xMS0yMFQwNjozMDo0MS45Nzk3MTk5WiJ9fQ==",
+    "signature": "miIDUzpCrZuFil60dQpo4Gij0vJg3oSUKaLxQ5aNpGmlvwobHzycJDrUB1qN8KjJbmpf07Xo4wEFVyE9iUZeFBNBO9QgjAxnygXFIWHFemNMRhROnc0w9soFBv7HmjW+dJF1pFAjPo+OLq1aVkSsvE7Z+VoNqYfM7rY3Zlfv8iTvrjPZ4+DAkqBVQnTt6cK6AFqPfq39vhhnOohQXfyq2jvUclKn9RPp600D1kXhKYW/yL9qE5EvyA82awbqvBkvh7d2EOElwq4Afg+HIEyx0gIhFUnF9Bkhg2lNwbTy5BCuMyGXWfkFadSPz2hX3ByStizi7rrRktNCC3ypVhcyly8BHVlfeS4ur3miV/zMUpZsINdn0iOV1EmoTR8bYkqmOD0rXRZhou4FRRSncSAmv6OFBHuAlJFoE8Hkehtz1WqAauPi5wnvzyVTzrHt3r+8Jhp2l1v2diE1x0k8lt0mVTabdh3rrD8to7hR0K6mu7sh5So3z6PS7PnnFNC67OP0I8DW8A3niN6axvJPuyxdaozTSbZMSE6HDbIVUQabhVuWLBSnecOVOZejYgCoosu5or1ssLFiCli9NYN1l3abPDBqkd5JDdK2PH9hGfuloOYr4yEC7dSw3kfAt/FyC7z1/UcD0eVa99utdci/pvKVOkLxD5wcY3KHpZtReLhfYYU="
   }
 }
