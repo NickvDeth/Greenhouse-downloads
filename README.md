@@ -7,12 +7,12 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 | Greenhouse Proxy | 2.2.23 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.23/Setup-Greenhouse-Proxy-2.2.23.exe) |
 | Greenhouse Backup | 1.1.17 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.17/Setup-Greenhouse-Backup-1.1.17.exe) |
 | Greenhouse PLC Updater | 2.2.17 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.17/Setup-Greenhouse-PLC-Updater-2.2.17.exe) |
-| Greenhouse VNC | 0.1.24 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.24/Setup-Greenhouse-VNC-0.1.24.exe) |
+| Greenhouse VNC | 0.1.25 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.25/Setup-Greenhouse-VNC-0.1.25.exe) |
 | Achterbosch IP Tool | 1.4.2 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/ip-tool-v1.4.2/AchterboschIPTool-win-Setup.exe) |
 
 De installatieprogramma’s van de vier Greenhouse-apps plaatsen elk programma standaard in een eigen map onder `C:\Program Files\Achterbosch`. Tijdens de installatie kun je kiezen of je een snelkoppeling op het bureaublad wilt.
 
-Dubbelklik in de adreslijst van Greenhouse VNC op een PLC om het scherm in een apart venster te openen. Met **Venster aanpassen aan beeld** past de app het venster aan de oorspronkelijke grootte van het PLC-beeld aan, voor zover dat op de monitor past. Je gekozen schaal blijft actief. Op **100%** kun je door een groter PLC-beeld scrollen. Het installatieprogramma kiest automatisch de juiste uitvoering voor Windows x64 of ARM64.
+Dubbelklik in de adreslijst van Greenhouse VNC op een PLC. Het scherm opent op **100%** en de app past het venster meteen aan de oorspronkelijke grootte van het PLC-beeld aan. Als het hele beeld niet op je monitor past, kun je scrollen. Met **Passend in venster** kun je vervolgens het hele PLC-scherm tegelijk bekijken. Het installatieprogramma kiest automatisch de juiste uitvoering voor Windows x64 of ARM64.
 
 In Proxy **2.2.20** markeert **Poortmonitor** nieuwe en gewijzigde regels groen tot de volgende meting. Kies **Actieve regels** om die wijzigingen te volgen. Automatisch vernieuwen kan elke seconde of elke vijf seconden (standaard).
 
