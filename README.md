@@ -4,7 +4,7 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 
 | Tool | Versie | Download |
 | --- | --- | --- |
-| Greenhouse configurator | 2.2.30 | [Windows-installatieprogramma](https://nickvdeth.github.io/Greenhouse-downloads/website/downloads/Setup-Greenhouse-Configurator-2.2.30.exe) |
+| Greenhouse configurator | 2.2.31 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.31/Setup-Greenhouse-Configurator-2.2.31.exe) |
 | Greenhouse Backup | 1.1.17 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.17/Setup-Greenhouse-Backup-1.1.17.exe) |
 | Greenhouse PLC Updater | 2.2.17 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.17/Setup-Greenhouse-PLC-Updater-2.2.17.exe) |
 | Greenhouse VNC | 0.1.25 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.25/Setup-Greenhouse-VNC-0.1.25.exe) |
@@ -13,6 +13,8 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 De installatieprogramma’s van de vier Greenhouse-apps plaatsen elk programma standaard in een eigen map onder `C:\Program Files\Achterbosch`. Tijdens de installatie kun je kiezen of je een snelkoppeling op het bureaublad wilt.
 
 Dubbelklik in de adreslijst van Greenhouse VNC op een PLC. Het scherm opent op **100%** en de app past het venster meteen aan de oorspronkelijke grootte van het PLC-beeld aan. Als het hele beeld niet op je monitor past, kun je scrollen. Met **Passend in venster** kun je vervolgens het hele PLC-scherm tegelijk bekijken. Het installatieprogramma kiest automatisch de juiste uitvoering voor Windows x64 of ARM64.
+
+**Greenhouse configurator 2.2.31** kan een vast FTP-profiel op de pc bewaren. Open **FTP-server**, kies **Andere XML kiezen…** en vervolgens **Bewaren als standaard op deze pc**. Het profiel is ook offline beschikbaar en blijft bij app-updates bewaard.
 
 **Greenhouse configurator** is de nieuwe naam van Greenhouse Proxy. Versie **2.2.30** voegt beheer van FileZilla-accounts, mappen en certificaten toe. Een monteur kan op de RPC-pc een eigen FileZilla-export kiezen. Met een geïnstalleerde Greenhouse Proxy vanaf 2.2.8 kun je via de app bijwerken naar Greenhouse configurator. Vanaf 2.2.11 verschijnt de vraag bij het openen. Kies **Ja** om bij te werken. Gebruik je een losse EXE of een oudere Proxy, installeer dan de versie via de downloadknop. Je bestaande configuratie blijft beschikbaar.
 
