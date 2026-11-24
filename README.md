@@ -4,7 +4,7 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 
 | Tool | Versie | Download |
 | --- | --- | --- |
-| Greenhouse configurator | 2.2.31 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.31/Setup-Greenhouse-Configurator-2.2.31.exe) |
+| Greenhouse configurator | 2.2.32 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.32/Setup-Greenhouse-Configurator-2.2.32.exe) |
 | Greenhouse Backup | 1.1.17 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.17/Setup-Greenhouse-Backup-1.1.17.exe) |
 | Greenhouse PLC Updater | 2.2.17 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.17/Setup-Greenhouse-PLC-Updater-2.2.17.exe) |
 | Greenhouse VNC | 0.1.25 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.25/Setup-Greenhouse-VNC-0.1.25.exe) |
@@ -13,6 +13,8 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 De installatieprogramma’s van de vier Greenhouse-apps plaatsen elk programma standaard in een eigen map onder `C:\Program Files\Achterbosch`. Tijdens de installatie kun je kiezen of je een snelkoppeling op het bureaublad wilt.
 
 Dubbelklik in de adreslijst van Greenhouse VNC op een PLC. Het scherm opent op **100%** en de app past het venster meteen aan de oorspronkelijke grootte van het PLC-beeld aan. Als het hele beeld niet op je monitor past, kun je scrollen. Met **Passend in venster** kun je vervolgens het hele PLC-scherm tegelijk bekijken. Het installatieprogramma kiest automatisch de juiste uitvoering voor Windows x64 of ARM64.
+
+**Greenhouse configurator 2.2.32** vraagt bij **FTP-server → Standaard gebruiken** waar je het beschikbare FTP-standaardprofiel wilt opslaan. Kies een map en klik op **Opslaan**. De app selecteert meteen het nieuwe XML-bestand. In de openbare versie kun je een eigen standaard instellen met **Andere XML kiezen…** en **Bewaren als standaard op deze pc**.
 
 **Greenhouse configurator 2.2.31** kan een vast FTP-profiel op de pc bewaren. Open **FTP-server**, kies **Andere XML kiezen…** en vervolgens **Bewaren als standaard op deze pc**. Het profiel is ook offline beschikbaar en blijft bij app-updates bewaard.
 
