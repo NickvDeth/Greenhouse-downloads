@@ -14,7 +14,7 @@ De installatieprogramma’s van de vier Greenhouse-apps plaatsen elk programma s
 
 Dubbelklik in de adreslijst van Greenhouse VNC op een PLC. Het scherm opent op **100%** en de app past het venster meteen aan de oorspronkelijke grootte van het PLC-beeld aan. Als het hele beeld niet op je monitor past, kun je scrollen. Met **Passend in venster** kun je vervolgens het hele PLC-scherm tegelijk bekijken. Het installatieprogramma kiest automatisch de juiste uitvoering voor Windows x64 of ARM64.
 
-**Greenhouse configurator** is de nieuwe naam van Greenhouse Proxy. Versie **2.2.30** voegt beheer van FileZilla-accounts, mappen en certificaten toe. Een monteur kan op de RPC-pc een eigen FileZilla-export kiezen. Installeer deze versie via de downloadknop. Je bestaande configuratie blijft beschikbaar.
+**Greenhouse configurator** is de nieuwe naam van Greenhouse Proxy. Versie **2.2.30** voegt beheer van FileZilla-accounts, mappen en certificaten toe. Een monteur kan op de RPC-pc een eigen FileZilla-export kiezen. Met een geïnstalleerde Greenhouse Proxy vanaf 2.2.8 kun je via de app bijwerken naar Greenhouse configurator. Vanaf 2.2.11 verschijnt de vraag bij het openen. Kies **Ja** om bij te werken. Gebruik je een losse EXE of een oudere Proxy, installeer dan de versie via de downloadknop. Je bestaande configuratie blijft beschikbaar.
 
 In Proxy **2.2.20** markeert **Poortmonitor** nieuwe en gewijzigde regels groen tot de volgende meting. Kies **Actieve regels** om die wijzigingen te volgen. Automatisch vernieuwen kan elke seconde of elke vijf seconden (standaard).
 
