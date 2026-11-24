@@ -1,0 +1,29 @@
+{
+    "version":  "2.2.30",
+    "files":  [
+                  {
+                      "path":  "GreenhouseProxy.exe",
+                      "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.30/update-607d6d1d54ad83b02e2c38fbb002a76e28fdfdd416e94f6b5e67e16c0875d9ea.zip",
+                      "sha256":  "fe3d4dff0fb83795fa58ef2837a0d39519903770d8db91078103ef39052e67d9",
+                      "size":  701952,
+                      "archiveSha256":  "607d6d1d54ad83b02e2c38fbb002a76e28fdfdd416e94f6b5e67e16c0875d9ea",
+                      "archiveSize":  366513
+                  },
+                  {
+                      "path":  "GreenhouseUpdate.ps1",
+                      "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.30/update-d731eb281b41c726f8f963ada5f85d74bbc1cd9d41c70a716dc58aca9d56a313.zip",
+                      "sha256":  "40f872ed903ebf8bd57cbd8f714e0bdf79435933ec3d2d952f9a03395290c96e",
+                      "size":  43633,
+                      "archiveSha256":  "d731eb281b41c726f8f963ada5f85d74bbc1cd9d41c70a716dc58aca9d56a313",
+                      "archiveSize":  13405
+                  },
+                  {
+                      "path":  "Update-ScheduledTask.ps1",
+                      "url":  "https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.30/update-35e9968287e28556c274799f70e5b1de6ed64112253587995d8f2e8fa4f5d2c1.zip",
+                      "sha256":  "b6d8b25a0ab307f5673e629168e4e766c721a95414d0417ef9aebb0ae76fc6cc",
+                      "size":  2417,
+                      "archiveSha256":  "35e9968287e28556c274799f70e5b1de6ed64112253587995d8f2e8fa4f5d2c1",
+                      "archiveSize":  1243
+                  }
+              ]
+}

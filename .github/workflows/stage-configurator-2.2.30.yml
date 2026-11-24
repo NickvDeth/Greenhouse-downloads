@@ -1,0 +1,58 @@
+name: Stage Greenhouse configurator 2.2.30 draft
+on:
+  push:
+    branches: ["codex/stage-proxy-v2.2.30"]
+permissions: {}
+jobs:
+  stage:
+    if: github.repository == 'NickvDeth/Greenhouse-downloads' && github.event.before == '428ccdc523221fb0be95915f63ae6869cbcad69e'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    concurrency: stage-proxy-v2.2.30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Verify the tested files and stage them in the unpublished release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd .release-candidate/proxy-v2.2.30
+          cp ../../website/downloads/Setup-Greenhouse-Configurator-2.2.30.exe .
+          cp Setup-Greenhouse-Configurator-2.2.30.exe Setup-Greenhouse-Proxy-2.2.30.exe
+          sha256sum --check --strict <<'DIGESTS'
+          c553dcb40a79a659520d9f5c7fa73956bfd6c26a0fb3790b218c231d6134bbe6  Setup-Greenhouse-Configurator-2.2.30.exe
+          c553dcb40a79a659520d9f5c7fa73956bfd6c26a0fb3790b218c231d6134bbe6  Setup-Greenhouse-Proxy-2.2.30.exe
+          0040290635a6327cd59f9b5bc23c818d2a46d6bfc16cd1cb693dabf3a00487f4  files.windows-anycpu.json
+          607d6d1d54ad83b02e2c38fbb002a76e28fdfdd416e94f6b5e67e16c0875d9ea  update-607d6d1d54ad83b02e2c38fbb002a76e28fdfdd416e94f6b5e67e16c0875d9ea.zip
+          d731eb281b41c726f8f963ada5f85d74bbc1cd9d41c70a716dc58aca9d56a313  update-d731eb281b41c726f8f963ada5f85d74bbc1cd9d41c70a716dc58aca9d56a313.zip
+          35e9968287e28556c274799f70e5b1de6ed64112253587995d8f2e8fa4f5d2c1  update-35e9968287e28556c274799f70e5b1de6ed64112253587995d8f2e8fa4f5d2c1.zip
+          DIGESTS
+          repo='NickvDeth/Greenhouse-downloads'
+          tag='proxy-v2.2.30'
+          target='428ccdc523221fb0be95915f63ae6869cbcad69e'
+          if gh release view "$tag" --repo "$repo" --json isDraft >/dev/null 2>&1; then
+            echo 'Release exists. Leaving it untouched.'
+            exit 1
+          fi
+          gh release create "$tag" --repo "$repo" --target "$target" --draft --title 'Greenhouse configurator 2.2.30' --notes "Windows-versie 2.2.30 voegt FileZilla-beheer toe en hernoemt Greenhouse Proxy naar Greenhouse configurator. De installer ondersteunt bestaande en nieuwe installaties."
+          gh release upload "$tag" --repo "$repo" \
+            'Setup-Greenhouse-Configurator-2.2.30.exe' \
+            'Setup-Greenhouse-Proxy-2.2.30.exe' \
+            'files.windows-anycpu.json' \
+            'update-607d6d1d54ad83b02e2c38fbb002a76e28fdfdd416e94f6b5e67e16c0875d9ea.zip' \
+            'update-d731eb281b41c726f8f963ada5f85d74bbc1cd9d41c70a716dc58aca9d56a313.zip' \
+            'update-35e9968287e28556c274799f70e5b1de6ed64112253587995d8f2e8fa4f5d2c1.zip'
+          gh release view "$tag" --repo "$repo" --json isDraft,tagName,targetCommitish,assets > "$RUNNER_TEMP/staged-release.json"
+          python3 - "$RUNNER_TEMP/staged-release.json" <<'PY'
+          import json, sys
+          r=json.load(open(sys.argv[1]))
+          expected={"Setup-Greenhouse-Configurator-2.2.30.exe":"c553dcb40a79a659520d9f5c7fa73956bfd6c26a0fb3790b218c231d6134bbe6","Setup-Greenhouse-Proxy-2.2.30.exe":"c553dcb40a79a659520d9f5c7fa73956bfd6c26a0fb3790b218c231d6134bbe6","files.windows-anycpu.json":"0040290635a6327cd59f9b5bc23c818d2a46d6bfc16cd1cb693dabf3a00487f4","update-607d6d1d54ad83b02e2c38fbb002a76e28fdfdd416e94f6b5e67e16c0875d9ea.zip":"607d6d1d54ad83b02e2c38fbb002a76e28fdfdd416e94f6b5e67e16c0875d9ea","update-d731eb281b41c726f8f963ada5f85d74bbc1cd9d41c70a716dc58aca9d56a313.zip":"d731eb281b41c726f8f963ada5f85d74bbc1cd9d41c70a716dc58aca9d56a313","update-35e9968287e28556c274799f70e5b1de6ed64112253587995d8f2e8fa4f5d2c1.zip":"35e9968287e28556c274799f70e5b1de6ed64112253587995d8f2e8fa4f5d2c1"}
+          assert r["isDraft"] and r["tagName"] == "proxy-v2.2.30" and r["targetCommitish"] == "428ccdc523221fb0be95915f63ae6869cbcad69e"
+          assert {a["name"]:a["digest"] for a in r["assets"]} == {n:"sha256:"+h for n,h in expected.items()}
+          print("Verified six files in the unpublished draft.")
+          PY
