@@ -4,7 +4,7 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 
 | Tool | Versie | Download |
 | --- | --- | --- |
-| Greenhouse configurator | 2.2.34 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.34/Setup-Greenhouse-Configurator-2.2.34.exe) |
+| Greenhouse configurator | 2.2.35 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.35/Setup-Greenhouse-Configurator-2.2.35.exe) |
 | Greenhouse Backup | 1.1.17 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.17/Setup-Greenhouse-Backup-1.1.17.exe) |
 | Greenhouse PLC Updater | 2.2.17 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.17/Setup-Greenhouse-PLC-Updater-2.2.17.exe) |
 | Greenhouse VNC | 0.1.25 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.25/Setup-Greenhouse-VNC-0.1.25.exe) |
@@ -13,6 +13,8 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 De installatieprogramma’s van de vier Greenhouse-apps plaatsen elk programma standaard in een eigen map onder `C:\Program Files\Achterbosch`. Tijdens de installatie kun je kiezen of je een snelkoppeling op het bureaublad wilt.
 
 Dubbelklik in de adreslijst van Greenhouse VNC op een PLC. Het scherm opent op **100%** en de app past het venster meteen aan de oorspronkelijke grootte van het PLC-beeld aan. Als het hele beeld niet op je monitor past, kun je scrollen. Met **Passend in venster** kun je vervolgens het hele PLC-scherm tegelijk bekijken. Het installatieprogramma kiest automatisch de juiste uitvoering voor Windows x64 of ARM64.
+
+Kies in **Greenhouse configurator 2.2.35** onder **FTP-server** voor **Download standaard XML**. De standaardbrowser opent SharePoint. Meld je zo nodig aan met een Microsoft-account dat toegang heeft tot het bestand. Open de gedownloade XML in de app via **Andere XML kiezen…**. Je kunt daar ook een eigen FileZilla-export kiezen.
 
 **Greenhouse configurator 2.2.34** kan de FTP-instellingen van een andere pc overnemen. Kies **FTP-server → Andere XML kiezen…** en open de XML-export van FileZilla Server. Kies **FileZilla-server instellen**, controleer de samenvatting en bevestig. De accounts gebruiken de aanmeldgegevens uit de export. Met **Bewaren als standaard op deze pc** kun je het profiel later opnieuw gebruiken.
 
