@@ -4,18 +4,17 @@ Officiële downloads en updategegevens. De broncode blijft privé.
 
 | Tool | Versie | Download |
 | --- | --- | --- |
-| Greenhouse configurator (bedrijf) | 2.2.34 | [Bedrijfsversie 2.2.34 installeren](https://github.com/login?return_to=%2FNickvDeth%2FGreenhouse-proxy%2Freleases%2Fdownload%2Fconfigurator-bedrijf-v2.2.34%2FSetup-Greenhouse-Configurator-Intern-2.2.34.exe) · [Losse bedrijfs-EXE](https://github.com/login?return_to=%2FNickvDeth%2FGreenhouse-proxy%2Freleases%2Fdownload%2Fconfigurator-bedrijf-v2.2.34%2FGreenhouseConfigurator-2.2.34.exe) |
-| Greenhouse configurator (openbaar) | 2.2.33 | [Openbare installer 2.2.33](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.33/Setup-Greenhouse-Configurator-2.2.33.exe) |
+| Greenhouse configurator | 2.2.34 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/proxy-v2.2.34/Setup-Greenhouse-Configurator-2.2.34.exe) |
 | Greenhouse Backup | 1.1.17 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/backup-v1.1.17/Setup-Greenhouse-Backup-1.1.17.exe) |
 | Greenhouse PLC Updater | 2.2.17 | [Windows-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/plc-updater-v2.2.17/Setup-Greenhouse-PLC-Updater-2.2.17.exe) |
 | Greenhouse VNC | 0.1.25 | [Windows-installatieprogramma voor x64 en ARM64](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/vnc-windows-v0.1.25/Setup-Greenhouse-VNC-0.1.25.exe) |
 | Achterbosch IP Tool | 1.4.2 | [Windows x64-installatieprogramma](https://github.com/NickvDeth/Greenhouse-downloads/releases/download/ip-tool-v1.4.2/AchterboschIPTool-win-Setup.exe) |
 
-Meld je voor de bedrijfsdownloads van Greenhouse configurator aan bij GitHub met een account met bedrijfstoegang.
-
 De installatieprogramma’s van de vier Greenhouse-apps plaatsen elk programma standaard in een eigen map onder `C:\Program Files\Achterbosch`. Tijdens de installatie kun je kiezen of je een snelkoppeling op het bureaublad wilt.
 
 Dubbelklik in de adreslijst van Greenhouse VNC op een PLC. Het scherm opent op **100%** en de app past het venster meteen aan de oorspronkelijke grootte van het PLC-beeld aan. Als het hele beeld niet op je monitor past, kun je scrollen. Met **Passend in venster** kun je vervolgens het hele PLC-scherm tegelijk bekijken. Het installatieprogramma kiest automatisch de juiste uitvoering voor Windows x64 of ARM64.
+
+**Greenhouse configurator 2.2.34** kan de FTP-instellingen van een andere pc overnemen. Kies **FTP-server → Andere XML kiezen…** en open de XML-export van FileZilla Server. Kies **FileZilla-server instellen**, controleer de samenvatting en bevestig. De accounts gebruiken de aanmeldgegevens uit de export. Met **Bewaren als standaard op deze pc** kun je het profiel later opnieuw gebruiken.
 
 **Greenhouse configurator 2.2.33** brengt de app en het vaste FTP-profiel samen in de programmamap **Greenhouse configurator**. De installer neemt de bestaande instellingen mee. Na een automatische update vanuit de oude map bevestig je bij het openen de overstap.
 
